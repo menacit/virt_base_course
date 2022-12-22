@@ -2,7 +2,7 @@
 SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
-title: "Virtualisation course: Introduction recap"
+title: "Virtualization course: Introduction recap"
 author: "Joel Rangsmo <joel@menacit.se>"
 footer: "© Course authors (CC BY-SA 4.0)"
 description: "Recap of introductory part of virtualization course"
