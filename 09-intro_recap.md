@@ -5,9 +5,9 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 title: "Virtualisation course: Introduction recap"
 author: "Joel Rangsmo <joel@menacit.se>"
 footer: "© Course authors (CC BY-SA 4.0)"
-description: "Recap of introductory part of virtualisation course"
+description: "Recap of introductory part of virtualization course"
 keywords:
-  - "virtualisation"
+  - "virtualization"
   - "vm"
   - "container"
   - "recap"
@@ -34,7 +34,7 @@ TODO
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © John Regan (CC BY 2.0)" -->
-Covered what virtualisation is and it's benefits.  
+Covered what virtualization is and it's benefits.  
   
 Built foundation for further understanding of technologies available on the market.
 
@@ -63,9 +63,9 @@ TODO
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Reid Campbell (CC0 1.0)" -->
 ## Warm-up quiz
-- Describe three ways virtualisation can improve reliability
-- Explain the main difference between HW-level and OS-level virtualisation 
-- Explain why virtualisation can be bad for performance
+- Describe three ways virtualization can improve reliability
+- Explain the main difference between HW-level and OS-level virtualization 
+- Explain why virtualization can be bad for performance
 - Describe why network/shared storage is most often used for storing virtual disks of VMs
   
 **[virt_course+010901@%EMAIL_DOMAIN%](mailto:virt_course+010901@%EMAIL_DOMAIN%)**
