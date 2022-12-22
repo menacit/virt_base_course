@@ -1,9 +1,10 @@
 ---
 SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2022 semeiths
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Prerequisites"
-author: "Joel Rangsmo <joel@menacit.se>"
+author: "Joel Rangsmo <joel@menacit.se> and semeiths"
 footer: "© Course authors (CC BY-SA 4.0)"
 description: "Required software and configuration for virtualisation course"
 keywords:
@@ -47,9 +48,9 @@ need to be an expert but knowing what kernel space and user space is will surely
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kristina Hoeppner (CC BY-SA 2.0)" -->
 ## You need to setup...
-- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) On your Host machine
+- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on your host machine
 - Virtual machine with [Ubuntu Server 22.04](https://ubuntu.com/download/server)
-- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **in Ubuntu Server VM**
+- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **in the Ubuntu VM**
 
 ## What you may experiment with...
 Try enabling/configuring nested virtualisation and check if it works **in Ubuntu Server VM**:

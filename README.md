@@ -23,7 +23,12 @@ PRs containing photos of cats and/or dogs will be rejected - there are already t
 the Internet! ;-)
 
 
-## Acknowledgements 
+## Acknowledgements
 Thanks to [IT-Högskolan](https://www.iths.se/) and Särimner for enabling development of the course.
   
 Hats off to all FOSS developers and free culture contributors making it possible.
+
+
+## Contributors
+- [Joel Rangsmo](https://github.com/doctor-love)
+- [semeiths](https://github.com/semeiths)
