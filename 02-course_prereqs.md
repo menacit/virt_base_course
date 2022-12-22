@@ -47,12 +47,12 @@ need to be an expert but knowing what kernel space and user space is will surely
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kristina Hoeppner (CC BY-SA 2.0)" -->
 ## You need to setup...
-- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads)
+- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) On your Host machine
 - Virtual machine with [Ubuntu Server 22.04](https://ubuntu.com/download/server)
-- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **in Ubuntu VM**
+- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **in Ubuntu Server VM**
 
 ## What you may experiment with...
-Try enabling/configuring nested virtualisation and check if it works **in Ubuntu VM**:
+Try enabling/configuring nested virtualisation and check if it works **in Ubuntu Server VM**:
 
 ```
 $ sudo apt install cpu-checker && kvm-ok
