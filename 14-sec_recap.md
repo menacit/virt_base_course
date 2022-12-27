@@ -41,7 +41,7 @@ Participants are split into two or more groups.
 Half should present the security benefits of using virtualisation while the other do the opposite.
   
 After presentation, send slides to
-**[virt_course+011301@%EMAIL_DOMAIN%](mailto:virt_course+011301@%EMAIL_DOMAIN%)**
+**[virt_course+011401@%EMAIL_DOMAIN%](mailto:virt_course+011401@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/14-snowden.jpg)
 

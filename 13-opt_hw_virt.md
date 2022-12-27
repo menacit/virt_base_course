@@ -47,7 +47,9 @@ TODO
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Micah Elizabeth Scott (CC BY-SA 2.0)" -->
 ## Para-virtualisation
-Let's not pretend that we are relying on real hardware.  
+Let's not pretend that guests are running on real hardware.
+  
+Virtual devices don't necessarily need to act like physical HW and can be much more efficient.  
   
 Virtio offers standardised virtual devices such as NICs, block devices, sockets and sound cards.
 
@@ -62,7 +64,7 @@ TODO
 ## Memory and data optimization
 Deduplication may be used for both guest memory/RAM and disk to save a lot of space.  
   
-Memory ballooning enables overprovisioning of RAM.
+Memory ballooning features enables overprovisioning of RAM in guests.
 
 ![bg right:30%](images/13-cow.jpg)
 

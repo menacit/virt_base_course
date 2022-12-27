@@ -28,10 +28,6 @@ style: |
 
 ![bg right:30%](images/09-pcb_baby.jpg)
 
-<!--
-TODO
--->
-
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © John Regan (CC BY 2.0)" -->
 Covered what virtualisation is and it's benefits.  
@@ -41,7 +37,9 @@ Built foundation for further understanding of technologies available on the mark
 ![bg right:30%](images/09-turtle.jpg)
 
 <!--
-TODO
+- So far we've talked about the "soft" parts: pros and cons of virtualisation as a general concept
+
+- These apply to both HW-level and OS-level virtualisation
 -->
 
 ---
@@ -57,7 +55,7 @@ Install Docker Engine **in Ubuntu VM** using method describe in
 ![bg right:30%](images/09-glitch_face.jpg)
 
 <!--
-TODO
+Clarify and remind students about required software setup for the course
 -->
 
 ---
@@ -65,7 +63,7 @@ TODO
 ## Warm-up quiz
 - Describe three ways virtualisation can improve reliability
 - Explain the main difference between HW-level and OS-level virtualisation 
-- Explain why virtualisation can be bad for performance
+- Explain why virtualisation can have a negative impact on performance
 - Describe why network/shared storage is most often used for storing virtual disks of VMs
   
 **[virt_course+010901@%EMAIL_DOMAIN%](mailto:virt_course+010901@%EMAIL_DOMAIN%)**
@@ -73,5 +71,5 @@ TODO
 ![bg right:30%](images/09-minerals.jpg)
 
 <!--
-TODO
+Spaced repetition and generation
 -->

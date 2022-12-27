@@ -44,7 +44,7 @@ TODO
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Eric Kilby (CC BY-SA 2.0)" -->
-We can encrypt disks of instances, but with limited value.
+We can encrypt disks of instances, but with somewhat limited value.
 
 ![bg right:30%](images/12-sloth.jpg)
 
@@ -68,7 +68,7 @@ TODO
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Quinn Dombrowski (CC BY-SA 2.0)" -->
-Currently lots of interest (see "money") in solving these issues.
+Currently lots of interest (see "money") in solving these issues for cloud and edge computing.
 
 ![bg right:30%](images/12-switches.jpg)
 
@@ -92,10 +92,11 @@ TODO
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Lydur Skulason (CC BY 2.0)" -->
-## Host isolation
-- Hardware features to prevent host from messing with guests
+## "Full guest isolation"
+- Hardware and software features to prevent host from messing with guests
 - Guests verify runtime environment before starting/decrypting data
-- Intel TDX is an example
+- Intel tries to solve this with [TDX](https://intel.github.io/ccc-linux-guest-hardening-docs/)
+- AMD [SEV-ES](https://developer.amd.com/sev/) is another solution
 
 
 ![bg right:30%](images/12-snow_dome.jpg)
@@ -107,10 +108,10 @@ TODO
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fritzchens Fritz (CC0 1.0)" -->
 ## What's the catch?
-- Still early days, lacking support in virtualisation stacks
-- Current state of verified boot is bad, especially on Linux
-- Requires trust in proprietary black box
-- Several vulns have been identified
+- Still early days, lacking support in virtualisation software stack
+- Current state of verified boot is quite bad, especially in Linux distributions
+- Requires trust in proprietary black boxes
+- Several vulnerabilities have been identified
 
 ![bg right:30%](images/12-broken_cpu.jpg)
 

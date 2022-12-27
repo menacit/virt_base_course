@@ -183,7 +183,7 @@ TODO
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Eric Savage (CC BY-SA 2.0)" -->
 ## Not everything is awesome
-- Requires somewhat fancy HW
+- [Requires somewhat fancy HW](https://www.qubes-os.org/doc/system-requirements/)
 - Quite a lot of overhead
 - No 3D acceleration
 - Lots to manage and keep updated
@@ -199,7 +199,7 @@ TODO
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Mathias Appel (CC0 1.0)" -->
 ## Get inspired
 - Take a look at [Bromium/HP Wolf Security](https://www.bromium.com/)
-- Use VM and snapshot for risky things
+- Use VM and snapshots for risky things
 - Setup a router VM to force traffic through VPN
 - Separate VM per customer/project for easy cleanup and leak prevention
 
