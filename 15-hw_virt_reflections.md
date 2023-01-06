@@ -26,10 +26,6 @@ style: |
 
 ![bg right:30%](images/15-otter.jpg)
 
-<!--
-TODO
--->
-
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fritzchens Fritz (CC0 1.0)" -->
 ## Answer the following questions
@@ -42,17 +38,17 @@ TODO
 ![bg right:30%](images/15-chip.jpg)
 
 <!--
-TODO
+- Take your time to think these over, it's good for your learning
+
+- If you have patients for it, revist the questions in a week or so to further engrave them into
+your knowledge
 -->
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Alan Levine (CC0 1.0)" -->
 ## Recommended reading
+- [Proxmox installation guide](https://pve.proxmox.com/pve-docs/chapter-pve-installation.html)
 - [Official Qubes OS documentation](https://www.qubes-os.org/doc/)
 - [Firecracker website](https://firecracker-microvm.github.io/)
 
 ![bg right:30%](images/15-payphone.jpg)
-
-<!--
-TODO
--->

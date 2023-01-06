@@ -30,7 +30,7 @@ style: |
 ![bg right:30%](images/14-lion.jpg)
 
 <!--
-TODO
+- Let's take a step back and think about the security pros/cons of virtualisation
 -->
 
 ---
@@ -46,5 +46,5 @@ After presentation, send slides to
 ![bg right:30%](images/14-snowden.jpg)
 
 <!--
-TODO
+- Reminder: Focus on security aspects of virtualisation, not the rest
 -->

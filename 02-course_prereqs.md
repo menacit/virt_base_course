@@ -51,13 +51,8 @@ need to be an expert but knowing what kernel space and user space is will surely
 - [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on your host machine
 - Virtual machine with [Ubuntu Server 22.04](https://ubuntu.com/download/server)
 - [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **in the Ubuntu VM**
-
-## What you may experiment with...
-Try enabling/configuring nested virtualisation and check if it works **in Ubuntu Server VM**:
-
-```
-$ sudo apt install cpu-checker && kvm-ok
-```
+  
+**Ask for help if anything is unclear!**
 
 ![bg right:30%](images/02-llama.jpg)
 
@@ -67,12 +62,6 @@ $ sudo apt install cpu-checker && kvm-ok
 - Ubuntu will be used in most demos and labs.
 
 - For now, just make sure that the software is installed and seem to be working.
-
-- Nested virtualisation allows us to run hardware accelerated virtualisation inside a HW-level VM,
-which could be very useful for experimentation.
-
-- It does however put requirements on HW and SW configuration. Urge participants to try enabling
-it: if it works well for the majority we'll try to incorporate use of it in labs.
 
 - Check out the presentation links: I will however not provide a step-by-step guide, you won't get
 it in real life.

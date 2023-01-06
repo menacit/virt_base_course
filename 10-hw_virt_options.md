@@ -249,7 +249,7 @@ data corruption detection among other things
 - Priorities are security and performance, not flexibility
 
 - Development is sponsored by several (and in some cases competing companies), such as Intel, ARM,
-Microsoft, ByteDance (developers of Tiktok) and Alibaba (probably largest non-US cloud)
+AMD, Microsoft, ByteDance (developers of Tiktok) and Alibaba (probably largest non-US cloud)
 
 - Uses KVM on Linux to make things fast!
 
@@ -285,12 +285,16 @@ projects share code, resulting in that they make each other better
 ## Xen
 - Pioneering solution for para-virtualisation
 - Performant "bare metal" hypervisor
-- Relatively small TCB
+- Relatively small [TCB](https://en.wikipedia.org/wiki/Trusted_computing_base)
 
 ![bg right:30%](images/10-panda.jpg)
 
 <!--
-TODO
+- Originally a research project, released as FOSS in 2003
+- High performance with focus on para-virtualisation (more about that later in the course)
+- Served as the base for AWS instances (now days they seem to use KVM more and more)
+
+Segue: Xen has an interesting design and is quite different from QEMU + KVM....
 -->
 
 ---
@@ -298,7 +302,11 @@ TODO
 ![bg center:100%](images/10-hypervisor_types.jpg)
 
 <!--
-TODO
+- https://en.wikipedia.org/wiki/Hypervisor#Classification
+
+- https://wiki.xenproject.org/wiki/Xen_Project_Beginners_Guide
+
+- TODO: Add better speaker notes for this somewhat complicated topic
 -->
 
 ---
@@ -306,10 +314,23 @@ TODO
 ## Xen
 - Pioneering solution for para-virtualisation
 - Performant "bare metal" hypervisor
-- Relatively small TCB
+- Relatively small [TCB](https://en.wikipedia.org/wiki/Trusted_computing_base)
 
 ![bg right:30%](images/10-panda.jpg)
 
 <!--
-TODO
+- TCB == Trusted Computing Base, HW and SW that if compromised could affect the overall security
+of a system. Kernel level software, such as drivers, and components with firmware often have more
+or less unrestricted access to memory, so a compromise of them could allow an attacker to gain
+full control of all software running on the machine
+
+- Having a small TCB is desirable as less code is easier to test and audit for security issues
+
+- As Xen acts as a thin layer and lots of functionality normally associated with a virtual machine
+manager is delegated to dom0 (the privileged VM used to manage the system and other VMs), Xen has
+a relatively small TCB
+
+- If you wanna try it out, the easiest way is probably to install XCP-NG (https://xcp-ng.org/) on
+
+Segue: Due to these properties, Xen was chosen as the virtualisation technology for Qubes OS...
 -->
