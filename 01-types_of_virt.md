@@ -102,7 +102,7 @@ Segue: Two primary methods for solving these problems started to appear
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jonathan Brandt (CC0 1.0)" -->
-## Hardware-level virtualisation
+## HW-level virtualisation
 Pretend to be hardware well enough to make operating systems run.
 
 ## OS-level virtualisation
