@@ -100,7 +100,7 @@ continue progressing into OS-level virtualisation
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
-**In general, the security pros far outweigh the cons.**
+**In most use-cases, the security pros far outweigh the cons.**
 
 ![bg right:30%](images/16-locks.jpg)
 
@@ -260,7 +260,13 @@ OSes and apps handle super big instances very well
 -->
 
 ---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jeena Paradies (CC BY 2.0)" -->
+**Read assignment descriptions carefully and send results to the right address.**
+
+![bg right:30%](images/16-stones.jpg)
+
+---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Tero Karppinen (CC BY 2.0)" -->
-**Other questions or thoughts before we keep going?**
+**Questions/thoughts before we keep going?**
 
 ![bg right:30%](images/16-pixel_forest.jpg)

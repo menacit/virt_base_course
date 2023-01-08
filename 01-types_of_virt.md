@@ -135,6 +135,9 @@ a physical object with all it's quirks.
 - The ideas of uncoupling applications from hardware and/or operating systems became a thing as
 well, but more about that later in the course: For now focus on HW-level and OS-level virt.
 
+- OS-level instances are often called "containers", I try to not use the term as it is a bit
+confusing and could mean mean other things (more about that later)
+
 Segue: To make things a bit less diffuse, let's talk about early contenders in the field.
 
 -->

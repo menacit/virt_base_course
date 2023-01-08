@@ -50,6 +50,9 @@ they just want to run their application stacks
 
 - The goal of OS-level virtualisation is to convince users and applications, not OSes
 
+- OS-level instances are often called "containers", I try to not use the term as it is a bit
+confusing and could mean mean other things (more about that later)
+
 Segue: To further complicate things, we can create sub-groups of OS-level virt...
 -->
 
@@ -162,5 +165,61 @@ The one-way mirror allows a hypervisor to continuously monitor guests for malici
 ![bg right:30%](images/17-james_webb.jpg)
 
 <!--
-TODO
+- While it's true that HW-level hypervisors can typically snoop on guests (as we've discussed),
+in-practice it is a bit cumbersome and involves quite a bit of overhead
+
+- As the host has great insight into what is happening in OS-level guests, activity can be
+observed
+
+- Falco is an Intrusion Detection System (IDS) for OS-level virtualisation on Linux (specifically
+containers, we'll talk more about that later). You can configure it to alert you when specific
+applications are run and abnormal behavior occurs: Should your web server really spawn a port
+scanner process?
+
+Segue: Enough about the benefits, what are our options?
+-->
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+## Virtuozzo
+- First commercially available solution for Linux
+- FOSSed in 2005 as ["OpenVZ"](https://openvz.org/)
+- Popular in the low-end hosting space
+
+## LXC
+- Designed to [fit into mainline Linux](https://en.wikipedia.org/wiki/Linux_kernel#Mainline_Linux)
+- Development currently lead by Canonical
+- Used by ChromeOS to run regular Linux apps
+
+![bg right:30%](images/17-spheres.jpg)
+
+<!--
+- We've already talked a bit about FreeBSD jails (see "Types of virtualisation" presentation)
+
+- Limit ourselves to Linux, no really wide-spread solutions for Windows
+
+- Virtuozzo is often shorted to just VZ
+
+- Very early solution that showed great potential
+
+- Required use of proprietary software with license fees and a heavily patched Linux kernel,
+which mayhaps prevented it from being more widely used
+
+- The core was open-sourced as "OpenVZ", still quite tightly tied to the SWsoft company
+
+- Still quite popular today, especially in web hosting and for cheap VPSes as it allows great
+density of guests on a single node
+
+- A bit quirky behavior sometimes, applications didn't always behave as expected. Full HW-level
+virtualisation probably seemed easier for many users (as they were used to one OS on a physical
+server)
+
+- As stated, one of the things preventing wide-spread adoption was that the development and
+community was heavily controlled by SWSoft. You had to use a kernel with their patches, which was
+somewhat limiting
+
+- LXC was initially developed by IBM and other parties with the goal of only using (or at least
+directly upstreaming) functionality in the Linux kernel (more about that later)
+
+- Canonical are the makers of Ubuntu and it's where its most tightly integrated
 -->

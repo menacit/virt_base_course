@@ -53,6 +53,10 @@ May require use of feature masking for migration and security.
 may only be accessible on workstation and server systems
 
 - KVM utilise and expose these hardware acceleration features
+
+- In order to allow live migration of guests, we can't forward HW devices or use fancy CPU features
+that may not exist on the target hypervisor. Feature masking enables a host to hide CPU features
+from the guests
 -->
 
 ---
