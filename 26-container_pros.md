@@ -28,3 +28,9 @@ style: |
 ### Benefits (AKA "All kool kids like it")
 
 ![bg right:30%](images/26-sculpture.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Mathias Appel (CC0 1.0)" -->
+## Containers make it easy to...
+
+![bg right:30%](images/26-red_panda.jpg)

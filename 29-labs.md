@@ -91,7 +91,7 @@ You've been tasked with investigating if para-virtualisation could help.
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
 ## Lab: Containerise Gitea
-Examplify wants to make money by hosting [Gitea](https://gitea.io) severs for development teams.  
+Examplify wants to make money by hosting [Gitea](https://gitea.io) servers for development teams.  
   
 ★ Package and run Gitea in a Docker container  
   

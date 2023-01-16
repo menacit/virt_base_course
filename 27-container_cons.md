@@ -28,3 +28,12 @@ style: |
 ### Everything ain't awesome
 
 ![bg right:30%](images/27-turtles.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+## Containers make it easy to...
+- Not understand what you are running
+- Use software packaged by dubious people
+- Forget updating things
+
+![bg right:30%](images/27-cd_macro.jpg)
