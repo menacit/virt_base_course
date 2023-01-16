@@ -65,7 +65,7 @@ Needs to grow fast and has employees all over the world working from home.
 
 ---
 <!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
-## Org. 3: Xample Industries
+## Org. 2: Xample Industries
 Well-established company in heavy-manufacturing.  
   
 Every second of downtime and delays means huge monetary losses.  
@@ -115,3 +115,66 @@ Need to handle the occasional surge of visitors and bookings on their website.
 ## Let's summarise!
 
 ![bg right:30%](images/33-data_center.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jennifer Morrow (CC BY 2.0)" -->
+## Economic benefits
+Less HW == Less electricity, DC space and painful human labor.  
+  
+Enables self-service and automation which helps organisations move faster.
+
+![bg right:30%](images/33-sphere.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © USGS EROS (CC BY 2.0)" -->
+## Reliability benefits
+Maintenance of underlying infrastructure without disruptions.  
+  
+Easier testing and operations due to predictable runtime environments.  
+  
+Enables quick recovery to a good known state. 
+
+![bg right:30%](images/33-satellite_photo.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+## Security benefits
+Reduces attack surface through fine grained segmentation of systems.  
+  
+Enables users to somewhat safely handle untrusted data.  
+  
+Enables quick recovery to a good known state. 
+
+![bg right:30%](images/33-lock.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Nacho Jorganes (CC BY-SA 2.0)" -->
+## Environmental benefits
+Less HW == less e-waste and energy consumption.  
+
+![bg right:30%](images/33-cow.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+## OS-level > HW-level
+- Faster!
+- More efficient/higher density
+- Easier to inspect and monitor
+
+![bg right:30%](images/33-core_memory.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Marco Verch (CC BY 2.0)" -->
+## OS-level < HW-level
+- Easier to break isolation
+- Less stable/predictable
+- Barley supported live-migration
+
+![bg right:30%](images/33-pcb_macro.jpg)
+
+---
+<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bret Bernhoft (CC0 1.0)" -->
+# DE\_END
+### Thanks for listening!
+
+![bg right:30%](images/33-abstract_party.jpg)
