@@ -22,14 +22,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Gytis B (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Gytis B (CC BY-SA 2.0)" -->
 # Course prerequisites
 ### What you need to know and setup
 
 ![bg right:30%](images/02-vechicle_graveyard.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Thierry Ehrmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 ## You need to know...
 Basic networking and shell usage of Linux.
 
@@ -46,7 +46,7 @@ need to be an expert but knowing what kernel space and user space is will surely
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kristina Hoeppner (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kristina Hoeppner (CC BY-SA 2.0)" -->
 ## You need to setup...
 - [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on your host machine
 - Virtual machine with [Ubuntu Server 22.04](https://ubuntu.com/download/server)

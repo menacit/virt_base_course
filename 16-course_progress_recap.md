@@ -22,14 +22,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 # Course progress recap
 ### Refreshing what we've learned so far
 
 ![bg right:30%](images/16-ram_tree.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kuhnmi (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kuhnmi (CC BY 2.0)" -->
 Covered what virtualisation is and it's benefits.  
   
 Talked about HW-level virtualisation and it's pros/cons.
@@ -47,7 +47,7 @@ run on it like it would on real HW
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jon Evans (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jon Evans (CC BY 2.0)" -->
 - ~~High-level concepts and pros/cons~~
 - ~~Hardware-level virtualisation~~
 - OS-level virtualisation
@@ -62,7 +62,7 @@ run on it like it would on real HW
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 Things are about to get more complex.  
   
 **Remember to ask questions and utilize available learning resources!**
@@ -81,7 +81,7 @@ no stupid questions exist!
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © John K. Thorne (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% John K. Thorne (CC0 1.0)" -->
 ### Q&A, reflections and feedback
 
 ![bg right:30%](images/16-dome_collage.jpg)
@@ -99,7 +99,7 @@ continue progressing into OS-level virtualisation
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 **In most use-cases, the security pros far outweigh the cons.**
 
 ![bg right:30%](images/16-locks.jpg)
@@ -121,7 +121,7 @@ hypervisors more or less independently to mitigate the risks. It's not an inheri
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © OLCF at ORNL (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
 "Pizza box" is slang for rack server.  
   
 Physical servers requires time, money and energy to get/keep up and running.  
@@ -141,7 +141,7 @@ Segue: Let's take a closer look
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Robert Jemimus (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Robert Jemimus (CC BY 2.0)" -->
 
 ![bg center:100%](images/16-exposed_server-1.jpg)
 
@@ -150,7 +150,7 @@ Segue: Let's take a closer look
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Robert Jemimus (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Robert Jemimus (CC BY 2.0)" -->
 
 ![bg center:100%](images/16-exposed_server-2.jpg)
 
@@ -159,7 +159,7 @@ Segue: Let's take a closer look
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © OLCF at ORNL (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
 "Pizza box" is slang for rack server.  
   
 Physical servers requires time, money and energy to get/keep up and running.  
@@ -186,7 +186,7 @@ is a magic number - that could use some clarification...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Andrew Hart (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Andrew Hart (CC BY-SA 2.0)" -->
 Three is a magic number as it enables voting with majority decisions.  
   
 This allows things like DB clusters to operate during partial outages and reconcile afterwards.
@@ -209,7 +209,7 @@ vote (create a quorum) regarding which node should be responsible for handling s
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Helsinki Hacklab (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Helsinki Hacklab (CC BY 2.0)" -->
 Para-virtualised devices, such as network cards and disks, don't pretend to be physical things.  
   
 By getting rid of the illusion, a lot of overhead is removed which make them faster.
@@ -235,7 +235,7 @@ Segue: On the topic of performance, there may be need to clarify some terms comm
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pedro Ribeiro Simões (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Ribeiro Simões (CC BY 2.0)" -->
 Vertical scaling == Add/Remove CPU, RAM, etc.  
   
 Horizontal scaling == Add/Remove VM instances.
@@ -260,13 +260,13 @@ OSes and apps handle super big instances very well
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jeena Paradies (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jeena Paradies (CC BY 2.0)" -->
 **Read assignment descriptions carefully and send results to the right address.**
 
 ![bg right:30%](images/16-stones.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Tero Karppinen (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Tero Karppinen (CC BY 2.0)" -->
 **Questions/thoughts before we keep going?**
 
 ![bg right:30%](images/16-pixel_forest.jpg)

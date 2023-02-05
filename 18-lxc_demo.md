@@ -23,7 +23,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Freed eXplorer (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Freed eXplorer (CC BY 2.0)" -->
 # LXC/LXD demonstration
 ### A peak into OS-level virtualisation
 
@@ -39,7 +39,7 @@ of a tasting to see what it's capable of
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jan Hrdina (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jan Hrdina (CC BY-SA 2.0)" -->
 ```
 $ sudo snap install lxd
 
@@ -64,7 +64,7 @@ questions
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ```
 $ sudo lxc image list images: | shuf
 
@@ -94,7 +94,7 @@ Segue: Let's select one and get it started...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Price Capsule (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Price Capsule (CC BY-SA 2.0)" -->
 ```
 $ sudo lxc launch images:almalinux/9 srv-1
 
@@ -134,7 +134,7 @@ overhead was raised as the main advantages...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © NASA (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA (CC BY 2.0)" -->
 ```
 $ sudo lxc info srv-1 --resources
 
@@ -169,7 +169,7 @@ initial deployment
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ```
 $ sudo lxc exec -t srv-2 -- /bin/ash
 
@@ -193,7 +193,7 @@ space
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © OLCF at ORNL (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
 ```
 $ sudo lxc snapshot srv-2 pre_upgrade
 ```
@@ -214,7 +214,7 @@ going (especially compared to other virtualisation solutions)
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Thierry Ehrmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 ```
 $ sudo lxc cluster list
 
@@ -253,7 +253,7 @@ disables scheduling on it
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © NASA/Bill Stafford (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA/Bill Stafford (CC BY 2.0)" -->
 ## Other neat features
 - Runs on a potato
 - Automatic [overlay networking](https://wiki.ubuntu.com/FanNetworking)

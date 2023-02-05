@@ -25,7 +25,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Thierry Ehrmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 # Introducing VDI
 ### "Virtual Desktop Infrastructure"
 
@@ -44,7 +44,7 @@ Segue: But why, whats the idea?
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Scott McCallum (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Scott McCallum (CC BY-SA 2.0)" -->
 **Goal: Centralise compute resources.**
 
 ![bg right:30%](images/31-turtle.jpg)
@@ -61,7 +61,7 @@ Segue: What are the benefits with centralising people's desktops? Many are the s
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bret Bernhoft (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bret Bernhoft (CC0 1.0)" -->
 ## Resource pooling means...
 - Less overall hardware
 - More processing power when needed
@@ -96,7 +96,7 @@ make a lot of sense
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bret Bernhoft (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bret Bernhoft (CC0 1.0)" -->
 Minimize cost of setup, management and support.  
   
 Allows admins to focus their efforts in one place to store and backup data securely\*.
@@ -120,7 +120,7 @@ information was actually inaccessible/encrypted at the time
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jan Bocek (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jan Bocek (CC BY 2.0)" -->
 ## How do users access their virtual desktops?
 
 ![bg right:30%](images/31-telephone_pole.jpg)
@@ -134,7 +134,7 @@ information was actually inaccessible/encrypted at the time
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © VIA Gallery (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% VIA Gallery (CC BY 2.0)" -->
 ## Thin clients
 Low-cost devices with a NIC, display output and basic I/O. No internal storage.  
   
@@ -160,7 +160,7 @@ and access your desktop how you last left it
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Adam Greig (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Adam Greig (CC BY-SA 2.0)" -->
 ## Web and native apps
 Allows users to access their virtual desktop from any device anywhere at any time.  
 
@@ -182,7 +182,7 @@ Segue: This presentation wouldn't be part of the course if we didn't end on a lo
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Maja Dumat (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Maja Dumat (CC BY 2.0)" -->
 ## The downsides...
 - Many users still need offline compute
 - Requires stable low latency connection

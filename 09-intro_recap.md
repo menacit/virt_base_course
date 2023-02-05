@@ -22,14 +22,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bixentro (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bixentro (CC BY 2.0)" -->
 # Introductory recap
 ### Refreshing what we've learned so far
 
 ![bg right:30%](images/09-pcb_baby.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © John Regan (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% John Regan (CC BY 2.0)" -->
 Covered what virtualisation is and it's benefits.  
   
 Built foundation for further understanding of technologies available on the market.
@@ -43,7 +43,7 @@ Built foundation for further understanding of technologies available on the mark
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kojach (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kojach (CC BY 2.0)" -->
 ## Recap of prerequisites
 Install [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on host/hardware.  
   
@@ -59,7 +59,7 @@ Clarify and remind students about required software setup for the course
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Reid Campbell (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
 ## Warm-up quiz
 - Describe three ways virtualisation can improve reliability
 - Explain the main difference between HW-level and OS-level virtualisation 

@@ -22,7 +22,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 # Virtualised development
 ### Why devops teams have grown to love it
 
@@ -35,7 +35,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 **In theory, collaborative development of software shouldn't be that hard.**
 
 ![bg right:30%](images/22-bees.jpg)
@@ -73,7 +73,7 @@ $ curl http://localhost:5000/api/request_info | jq
 ```
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Scott Skippy (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Scott Skippy (CC BY-SA 2.0)" -->
 What dependencies (and versions) are installed on developers workstations?  
   
 How about in the different server environments?  
@@ -83,7 +83,7 @@ Who should deploy and manage the stack? (application, load balancer, databases, 
 ![bg right:30%](images/22-dice.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Qubodup (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Qubodup (CC BY 2.0)" -->
 ```
 $ cat requirements.txt
 
@@ -110,7 +110,7 @@ $ bin/flask run
 ![bg right:30%](images/22-glitch_globe.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## Some problems
 - Sharing venv's is not trivial
 - Only handles Python dependencies\*

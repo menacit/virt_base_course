@@ -23,7 +23,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Meddygarnet (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Meddygarnet (CC BY 2.0)" -->
 # Reliability benefits
 ### Not only nerds care about uptime
 
@@ -34,7 +34,7 @@ Virtualisation helps us run systems reliably, but how?
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Loco Steve (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Loco Steve (CC BY-SA 2.0)" -->
 ## Virtualisation enables...
 - Easy maintenance of hypervisors and supporting infrastructure thanks to migration
 - Legacy workloads to run on decent and supported HW
@@ -51,7 +51,7 @@ Segue: There are some other neat benefits as well.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Takomabibelot (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Takomabibelot (CC BY 2.0)" -->
 Makes multi-server and multi-site redundancy economically viable for many organisations.
 
 ![bg right:30%](images/04-number_three.jpg)
@@ -67,7 +67,7 @@ requires a lot of fencing and painful reconciliation.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © J.V.R Sharma (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% J.V.R Sharma (CC BY-SA 2.0)" -->
 ## Snapshots
 - Freeze and store guest state
 - Roll back changes with ease
@@ -90,7 +90,7 @@ Segue: Let's put this feature to some use for reliability.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Nicholas Day (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Nicholas Day (CC BY 2.0)" -->
 Snapshots enables operators to apply bug fixes and perform other changes with more confidence.
 
 ![bg right:30%](images/04-color_glitch.jpg)

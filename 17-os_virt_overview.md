@@ -22,7 +22,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Wendelin Jacober (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Wendelin Jacober (CC0 1.0)" -->
 # OS-level virtualisation
 ### What makes it different and desirable?
 
@@ -35,7 +35,7 @@ Segue: May be time to refresh the differences between HW-level and OS-level
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## HW-level virtualisation
 Pretend to be hardware well enough to make operating systems run.
 
@@ -57,7 +57,7 @@ Segue: To further complicate things, we can create sub-groups of OS-level virt..
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 Pretend to be another OS  
 _or_  
 Create an isolated environment
@@ -69,7 +69,7 @@ Create an isolated environment
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 FreeBSD's Linuxulator and Windows' WSL v1 allows execution of (many) Linux applications. 
   
 [Wine](https://www.winehq.org/) allows (many) Windows programs to run on Linux, \*BSD and Mac OS.
@@ -95,7 +95,7 @@ games like Counter-Strike) got involved to make software run on Steam deck
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 Pretend to be another OS  
 _or_  
 **Create an isolated environment**
@@ -107,7 +107,7 @@ _or_
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Rolf Dietrich Brecher (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Rolf Dietrich Brecher (CC BY 2.0)" -->
 **Why use OS-level virtualisation?**
 
 ![bg right:30%](images/17-insect.jpg)
@@ -119,7 +119,7 @@ Segue: Well, there are several benefits...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Freed eXplorer (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Freed eXplorer (CC BY 2.0)" -->
 Shared kernel saves memory and CPU cycles:
 - No HW emulation overhead
 - Concurrent usage of accelerators like GPUs
@@ -157,7 +157,7 @@ Segue: The one-way mirrorness has other benefits as well...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © NASA/Chris Gunn (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA/Chris Gunn (CC BY 2.0)" -->
 The one-way mirror allows a hypervisor to continuously monitor guests for malicious activity.  
   
 [Falco](https://falco.org) is a kool example.
@@ -180,7 +180,7 @@ Segue: Enough about the benefits, what are our options?
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pelle Sten (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 ## Virtuozzo
 - First commercially available solution for Linux
 - FOSSed in 2005 as ["OpenVZ"](https://openvz.org/)

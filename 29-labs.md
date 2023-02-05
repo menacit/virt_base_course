@@ -21,7 +21,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fritzchens Fritz (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fritzchens Fritz (CC0 1.0)" -->
 # Virtualisation labs
 ### Putting knowledge to practice
 
@@ -36,7 +36,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Mario Hoppmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Mario Hoppmann (CC BY 2.0)" -->
 **Lab descriptions tells you what to do, not how you should do it.**  
   
 **Your submissions should document how you solved the problem.**
@@ -61,7 +61,7 @@ you focus on completing the first step of the three exercises first.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Lab: Shared dev environment
 Example Inc. wants their programmers to use the same software for web development.
 Vagrant has been chosen to tackle this challenge.  
@@ -75,7 +75,7 @@ Vagrant has been chosen to tackle this challenge.
 ![bg right:30%](images/29-lego.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © William Murphy (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% William Murphy (CC BY-SA 2.0)" -->
 ## Lab: Network benchmark
 Department of Examples need to cut cots in IT.
 You've been tasked with investigating if para-virtualisation could help.  
@@ -89,7 +89,7 @@ You've been tasked with investigating if para-virtualisation could help.
 ![bg right:30%](images/29-street_art.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steven Kay (CC BY-SA 2.0)" -->
 ## Lab: Containerise Gitea
 Examplify wants to make money by hosting [Gitea](https://gitea.io) servers for development teams.  
   

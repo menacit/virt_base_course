@@ -21,7 +21,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Reid Campbell (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
 # Background and basics
 ### Why and how we virtualise 
 
@@ -34,7 +34,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Robert Sullivan (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Robert Sullivan (CC0 1.0)" -->
 ## Computers were humans.
 
 ![bg right:30%](images/01-human_computers.jpg)
@@ -50,7 +50,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © C. Watts (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% C. Watts (CC BY 2.0)" -->
 ## Computers became...
 - Problem specific devices
 - General purpose
@@ -78,7 +78,7 @@ the 2000s the need becomes apparent in the commodity server market as well.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Beraldo Leal (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Beraldo Leal (CC BY 2.0)" -->
 ## Initial motivations
 To save money and "keep things simple".
 
@@ -101,7 +101,7 @@ Segue: Two primary methods for solving these problems started to appear
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jonathan Brandt (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jonathan Brandt (CC0 1.0)" -->
 ## HW-level virtualisation
 Pretend to be hardware well enough to make operating systems run.
 
@@ -165,7 +165,7 @@ who battle for the title: many which are freely available.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fandrey (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fandrey (CC BY 2.0)" -->
 ## FreeBSD Jails
 - Introduced in version 4.0 (2000)
 - Lazy solution to "UID 0 problem"
@@ -187,7 +187,7 @@ Segue: We are already using a lot of terms, let's try to clarify what some of th
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jonathan Miske (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jonathan Miske (CC BY-SA 2.0)" -->
 ## Glossary and loose synonyms
 
 ### Physical machine

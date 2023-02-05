@@ -22,14 +22,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © NASA (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA (CC BY 2.0)" -->
 # Virtualisation labs recap
 ### Review of practical lab exercises
 
 ![bg right:30%](images/30-space_walk.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## What's in your toolbox?
 - Base knowledge and Google-fu
 - Slides and other course material
@@ -38,13 +38,13 @@ style: |
 ![bg right:30%](images/30-squirell.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jorge Franganillo (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jorge Franganillo (CC BY 2.0)" -->
 ## Lets break them down
 
 ![bg right:30%](images/30-bumper_cars.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Lab: Shared dev environment
 Example Inc. wants their programmers to use the same software for web development.
 Vagrant has been chosen to tackle this challenge.  
@@ -56,7 +56,7 @@ Vagrant has been chosen to tackle this challenge.
 ![bg right:30%](images/30-lego.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 _"Example Inc. wants their programmers to use the same software for web development."_  
   
 Collaborative development is not trivial.  
@@ -67,7 +67,7 @@ See presentation:
 ![bg right:30%](images/30-lego.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 _"Vagrant has been chosen to tackle this challenge."_  
   
 What is Vagrant? How does it relate to collaborative development?  
@@ -82,7 +82,7 @@ See presentation: "Vagrant demo".
 ![bg right:30%](images/30-lego.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 _"★ Create a Vagrantfile that sets up Neovim, Python and a web server in a Debian 11 VM"_  
   
 What is a "Vagrantfile"? How does it relate to the collaborative development challenge?  
@@ -92,7 +92,7 @@ See presentation: "Vagrant demo".
 ![bg right:30%](images/30-lego.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 _"★★ Store/share the Vagrantfile together with a HTML document using Git"_  
   
 What would be the purpose of tracking the Vagrantfile and a HTML document with Git?  
@@ -104,7 +104,7 @@ See presentation: "Vagrant demo".
 ![bg right:30%](images/30-lego.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steven Kay (CC BY-SA 2.0)" -->
 ## Lab: Containerise Gitea
 Examplify wants to make money by hosting [Gitea](https://gitea.io) servers for development teams.  
   
@@ -117,7 +117,7 @@ Examplify wants to make money by hosting [Gitea](https://gitea.io) servers for d
 ![bg right:30%](images/30-pixel_map.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steven Kay (CC BY-SA 2.0)" -->
 _"Examplify wants to make money by hosting Gitea servers for development teams."_  
   
 What is Gitea? How could it help development teams and bring income to Examplify?  
@@ -131,7 +131,7 @@ What does this mean for Examplify?
 ![bg right:30%](images/30-pixel_map.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steven Kay (CC BY-SA 2.0)" -->
 _"★ Package and run Gitea in a Docker container"_  
   
 What is Docker? How does it relate to the challenge?  
@@ -145,7 +145,7 @@ See presentation: "Docker demo".
 ![bg right:30%](images/30-pixel_map.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steven Kay (CC BY-SA 2.0)" -->
 _"★★ Deploy Gitea backed by a MySQL database with Docker Compose"_  
   
 What is MySQL? What is Docker Compose?  
@@ -163,7 +163,7 @@ See presentation: "Docker demo".
 ![bg right:30%](images/30-pixel_map.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Steven Kay (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steven Kay (CC BY-SA 2.0)" -->
 _"★★★ Compile and run Gitea from source using a multi-stage Docker build"_  
   
 What does "source" mean in this context? Why would anyone compile software from source?  

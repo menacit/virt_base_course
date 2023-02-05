@@ -23,14 +23,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Shannon Kringen (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Shannon Kringen (CC BY 2.0)" -->
 # Container cons
 ### Everything ain't awesome
 
 ![bg right:30%](images/27-turtles.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Containers make it easy to...
 - Not understand what you are running
 - Use software packaged by dubious people

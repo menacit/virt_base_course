@@ -26,7 +26,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Enrique Jiménez (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Enrique Jiménez (CC BY-SA 2.0)" -->
 # OS-level virtualisation
 ### How does it work on Linux?
 
@@ -40,7 +40,7 @@ the for OS-level virtualisation security.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Eric Nielsen (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Eric Nielsen (CC BY 2.0)" -->
 There is no such thing as a OS-level VM in the Linux kernel.  
   
 Gluing together features like _chroot_, _namespaces_ and _cgroup_ creates the illusion.  
@@ -66,7 +66,7 @@ Segue: We have to start some where, may as well travel back to the epoch...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## chroot
 - Introduced in UNIX during the 70s
 - "Change file system root"
@@ -145,7 +145,7 @@ chroot was not designed as a security feature...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Andrew Hart (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Andrew Hart (CC BY-SA 2.0)" -->
 
 ```
 root@node-1:/# dmesg | wc -l
@@ -175,7 +175,7 @@ Segue: How do we solve this? Kernel namespaces is a part of the solution...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Torkild Retvedt (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Torkild Retvedt (CC BY-SA 2.0)" -->
 ## Namespaces
 "Functionality to partition a group of processes view of the system".  
   
@@ -203,7 +203,7 @@ Segue: This is a bit complicated to explain, some examples may help...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © David J (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% David J (CC BY 2.0)" -->
 ## Process/PID namespace
 Members get their own view of the process tree.
 
@@ -226,7 +226,7 @@ perspective of the host, but 1 inside the namespace
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Helsinki Hacklab (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Helsinki Hacklab (CC BY 2.0)" -->
 ```
 $ ps -e | head -n 4
 PID   TTY   TIME      CMD
@@ -272,7 +272,7 @@ PID   TTY   TIME      CMD
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dave Herholz (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dave Herholz (CC BY-SA 2.0)" -->
 ## Network namespace
 Separate "network stack" for members processes.  
   
@@ -299,7 +299,7 @@ TODO: Write better descriptions of non-virt use-cases
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Thierry Ehrmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 ## User namespace
 Root in chroot is root.  
   
@@ -324,7 +324,7 @@ Segue: Could talk about NSes, let's move on to cgroups...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pete Seeger (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pete Seeger (CC BY 2.0)" -->
 ## cgroup
 Members usage of system resources (CPU, memory, disk I/O, etc.) can be limited.  
   
@@ -351,7 +351,7 @@ process lying around (https://en.wikipedia.org/wiki/Zombie_process)
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Wendelin Jacober (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Wendelin Jacober (CC0 1.0)" -->
 ## seccomp
 Limit which/how system calls can be used.  
   
@@ -382,7 +382,7 @@ multi-user/admin restrictions to tricky. Well, we've tried to do that also...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bengt Nyman (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bengt Nyman (CC BY 2.0)" -->
 ## Capabilities 
 Originally developed to make root less omnipotent.  
   
@@ -419,7 +419,7 @@ interest in fixing it is limited
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Stacy B.H (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Stacy B.H (CC BY 2.0)" -->
 **These and other features make up the beautiful mess we call OS-level virtualisation on Linux!**
 
 ![bg right:30%](images/19-panda.jpg)

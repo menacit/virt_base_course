@@ -23,14 +23,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Tim Green (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Tim Green (CC BY 2.0)" -->
 # Security benefits
 ### (Yes, there are several)
 
 ![bg right:30%](images/06-moss_face.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kuhnmi (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kuhnmi (CC BY 2.0)" -->
 ## Safely running multi-user/multi-tenant systems is hard.
 
 ![bg right:30%](images/06-birds.jpg)
@@ -47,7 +47,7 @@ Segue: Besides keeping things simple, limiting what the job for a host is has ot
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Austin Design (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Austin Design (CC BY-SA 2.0)" -->
 ## One VM per task enables...
 - A smaller attack surface
 - Fewer privileged users per system
@@ -70,7 +70,7 @@ Segue: Some people have taken this reasoning to heart and very far.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Freestocks.org (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Freestocks.org (CC0 1.0)" -->
 [Qubes OS](https://www.qubes-os.org/) and [unikernels](https://en.wikipedia.org/wiki/Unikernel)
 such as [MirageOS](https://mirageos.org/) represent the logical extreme of these arguments.
 
@@ -89,7 +89,7 @@ provides.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Wolfgang Stief (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Wolfgang Stief (CC0 1.0)" -->
 ## Computers are stateful
 Snapshots enable a more aggressive security patching process.
   

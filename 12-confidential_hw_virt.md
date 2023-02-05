@@ -22,7 +22,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Nikki Tysoe (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Nikki Tysoe (CC BY 2.0)" -->
 # Confidential computing
 ### Making computers a bit more trustworthy
 
@@ -35,7 +35,7 @@ Segue: It does however have it's downsides...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Eric Chan (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Eric Chan (CC BY 2.0)" -->
 Traditionally, we must trust the hypervisor and operators of underlying infrastructure.  
 
 ![bg right:30%](images/12-jellyfish.jpg)
@@ -62,7 +62,7 @@ Segue: So what can we do to limit trust in the operators of physical infrastruct
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Eric Kilby (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Eric Kilby (CC BY-SA 2.0)" -->
 We can encrypt disks of instances, but with somewhat limited value.
 
 ![bg right:30%](images/12-sloth.jpg)
@@ -87,7 +87,7 @@ operating system
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jan Bommes (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jan Bommes (CC BY 2.0)" -->
 Operators can build trust using transparency.  
   
 Trust may not be enough due to regulatory requirements.  
@@ -115,7 +115,7 @@ systems can still get hacked. New vulnerabilities and attack techniques are disc
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Quinn Dombrowski (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Quinn Dombrowski (CC BY-SA 2.0)" -->
 Currently lots of interest (see "money") in solving these issues for cloud and edge computing.  
   
 "Confidential computing" is the collective term used for attempted solutions.
@@ -147,7 +147,7 @@ wanna utilize it.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Sergei F (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Sergei F (CC BY 2.0)" -->
 ## Memory encryption
 - Prevent host (and other guests) from peaking at/modifying VM memory
 - Guests are still vulnerable against many different types of attacks
@@ -185,7 +185,7 @@ some of these vulnerabilities/attacks...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Lydur Skulason (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Lydur Skulason (CC BY 2.0)" -->
 ## "Full guest isolation"
 - Hardware and software features to prevent host from messing with guests
 - Guests verify runtime environment before starting/decrypting data
@@ -212,7 +212,7 @@ Segue: This sounds wonderful and almost to good to be true...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fritzchens Fritz (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fritzchens Fritz (CC0 1.0)" -->
 ## What's the catch?
 - Still early days, lacking support in virtualisation software stack
 - Current state of verified boot is quite bad, especially in Linux distributions
@@ -241,7 +241,7 @@ Segue: So, should we just give up on these technologies?
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Graham Drew (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Graham Drew (CC BY 2.0)" -->
 Mayhaps a good complement to minimize risk, if understood properly.
 
 ![bg right:30%](images/12-sinking_boat.jpg)

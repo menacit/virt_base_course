@@ -23,7 +23,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pumpkinmook (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pumpkinmook (CC BY 2.0)" -->
 # Environmental benefits
 ### How virtualisation can make things a little less terrible
 
@@ -34,7 +34,7 @@ You young people care about the environment, don't you?
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Peggy Dembicer (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Peggy Dembicer (CC BY 2.0)" -->
 # Exercise: Pitch to Greta
 Describe environmental benefits of using virtualisation based on what you've learned so far.  
   
@@ -52,7 +52,7 @@ reliability. Same goes for it's environmental benefits.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Reid Campbell (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
 # Less HW means less waste
 - Doesn't just apply to servers, but supporting equipment and infrastructure as well 
 - Smaller margins, instances can be scaled
@@ -66,7 +66,7 @@ Basically the same as for saving money on HW.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Reid Campbell (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
 # Less HW means less energy
 - Doesn't just apply to servers, but supporting equipment and infrastructure as well 
 - Bigger/more powerful systems are (usually) more energy efficient

@@ -26,7 +26,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © ETC Project (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% ETC Project (CC0 1.0)" -->
 # Virtualisation software
 ### Examples of HW-level solutions
 
@@ -41,7 +41,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## VMware
 - ESXI is directly installed on HW
 - Great functionality for clustering
@@ -62,7 +62,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Daniel Oliva Barbero (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Daniel Oliva Barbero (CC BY 2.0)" -->
 ## Hyper-V
 - Window's native virtualisation technology
 - Does what you expect these days
@@ -94,7 +94,7 @@ traditional OSes in VMs
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fandrey (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fandrey (CC BY 2.0)" -->
 ## Bhyve
 - HW-level virtualisation for FreeBSD
 - Ported to Mac OS
@@ -114,7 +114,7 @@ used for Docker on Mac OS
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Maja Dumat (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Maja Dumat (CC BY 2.0)" -->
 ## "KVM"
 What people really mean is
 **libvirt + QEMU + KVM**.  
@@ -138,7 +138,7 @@ Segue: Let's break these components down and see what purpose they serve
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pedro Ribeiro Simões (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Ribeiro Simões (CC BY 2.0)" -->
 ## libvirt
 - Abstraction layer for running/managing VMs
 - Supports several different hypervisors
@@ -158,7 +158,7 @@ Segue: Let's break these components down and see what purpose they serve
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## QEMU
 - Swiss army knife of emulation
 - Emulates BIOS/UEFI and devices
@@ -185,7 +185,7 @@ in the current century probably never needed this feature, but it still was avai
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Aka Tman (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Aka Tman (CC BY 2.0)" -->
 ## KVM
 - Feature of the Linux kernel
 - Used to run performance critical operations in kernel space and access HW acceleration features
@@ -203,7 +203,7 @@ components (not libvirt)
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Masahiko Ohkubo (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Masahiko Ohkubo (CC BY 2.0)" -->
 ## Proxmox VE
 - All-in-one solution deployed on HW
 - Managed through web UI or API
@@ -230,7 +230,7 @@ data corruption detection among other things
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Edd Thomas (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Edd Thomas (CC BY 2.0)" -->
 ## Cloud Hypervisor
 - Lousy name!
 - Modern replacement for QEMU
@@ -259,7 +259,7 @@ Segue: Another user of KVM is Firecracker
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## Firecracker
 - [Developed by AWS](https://firecracker-microvm.github.io/#faq)
 - Runs performant "microVMs"
@@ -281,7 +281,7 @@ projects share code, resulting in that they make each other better
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Lars Juhl Jensen (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Lars Juhl Jensen (CC BY 2.0)" -->
 ## Xen
 - Pioneering solution for para-virtualisation
 - Performant "bare metal" hypervisor
@@ -298,7 +298,7 @@ Segue: Xen has an interesting design and is quite different from QEMU + KVM....
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Scsami (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Scsami (CC0 1.0)" -->
 ![bg center:100%](images/10-hypervisor_types.jpg)
 
 <!--
@@ -310,7 +310,7 @@ Segue: Xen has an interesting design and is quite different from QEMU + KVM....
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Lars Juhl Jensen (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Lars Juhl Jensen (CC BY 2.0)" -->
 ## Xen
 - Pioneering solution for para-virtualisation
 - Performant "bare metal" hypervisor

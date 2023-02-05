@@ -21,7 +21,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © NASA/JPL-Caltech (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA/JPL-Caltech (CC BY 2.0)" -->
 # Vagrant demonstration
 ### Shareable development environments
 
@@ -79,7 +79,7 @@ $ vagrant destroy --force
 ```
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Fritzchens Fritz (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fritzchens Fritz (CC0 1.0)" -->
 
 For production VMs, try [HashiCorp Packer](https://developer.hashicorp.com/packer).
 

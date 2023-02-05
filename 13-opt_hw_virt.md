@@ -21,7 +21,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Chris Dlugosz (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Chris Dlugosz (CC BY 2.0)" -->
 # Optimizing virtualisation
 ### Making HW-level VMs go wroooom!
 
@@ -36,7 +36,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Thierry Ehrmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 ## CPU assisted virtualisation
 Allow guests to access parts of CPU, RAM and PCI bus without going through virtualiser.  
   
@@ -60,7 +60,7 @@ from the guests
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Micah Elizabeth Scott (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Micah Elizabeth Scott (CC BY-SA 2.0)" -->
 ## Para-virtualisation
 Let's not pretend that guests are running on real hardware.
   
@@ -84,7 +84,7 @@ such as NICs and SATA HDDs
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Freestocks.org (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Freestocks.org (CC0 1.0)" -->
 ## Memory and data optimization
 Deduplication may be used for both guest memory/RAM and disk to save a lot of space.  
   

@@ -20,7 +20,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Austin Design (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Austin Design (CC BY-SA 2.0)" -->
 # Virtualisation course
 ### Welcome and thanks for joining! 
 
@@ -34,7 +34,7 @@ Segue: In this part of the course we'll talk about virtualisation...
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Håkan Dahlström (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Håkan Dahlström (CC BY 2.0)" -->
 ## What we will cover
 How and why virtualisation help the industry save money, improve uptime and secure IT systems.
 
@@ -51,7 +51,7 @@ How and why virtualisation help the industry save money, improve uptime and secu
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kuhnmi (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kuhnmi (CC BY 2.0)" -->
 ## How we will do it
 - Lectures and Q&A
 - Individual and group presentations
@@ -90,7 +90,7 @@ These resources should be seen as a complement to an instructor lead course, not
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Ludm (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Ludm (CC BY-SA 2.0)" -->
 ## Free as in beer and speech
 Is anything unclear? Got ideas for improvements? Don't fancy the animals in the slides?  
   
@@ -110,7 +110,7 @@ Create an issue or submit a pull request to
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Marcus Hansson (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Marcus Hansson (CC BY 2.0)" -->
 ## Acknowledgements
 Thanks to [IT-Högskolan](https://www.iths.se/) and Särimner for enabling development of the course.
   
@@ -126,7 +126,7 @@ The course wouldn't be available if it wasn't for financial support - Thanks!
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Austin Design (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Austin Design (CC BY-SA 2.0)" -->
 # Let us dig in!
 
 ![bg right:30%](images/00-cave.jpg)

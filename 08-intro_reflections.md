@@ -22,7 +22,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Alan Shearman (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Alan Shearman (CC BY 2.0)" -->
 # Reflections
 ### What have we learned so far?
 
@@ -33,7 +33,7 @@ Take some time to reflect before forcing more knowledge into your brain.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Austin Design (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Austin Design (CC BY-SA 2.0)" -->
 ## Answer the following questions
 - What are your most important take-aways?
 - Did you have any "Ahaaa!"-moments?
@@ -52,7 +52,7 @@ Take some time to reflect before forcing more knowledge into your brain.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Reid Campbell (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
 ## Recommended reading
 - [Original FreeBSD Jail paper](https://docs.freebsd.org/44doc/papers/jail/jail.html) 
 - [MirageOS overview](https://mirageos.org/docs/overview-of-mirage)

@@ -23,14 +23,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Milan Bhatt (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Milan Bhatt (CC BY-SA 2.0)" -->
 # Docker demonstration
 ### The whale that changed everything
 
 ![bg right:30%](images/24-whale.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Thierry Ehrmann (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 ```
 $ sudo docker run -ti ubuntu:18.04 /bin/bash
 
@@ -44,7 +44,7 @@ root@79424287b988:/#
 ![bg right:30%](images/24-server_rack.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jan Hrdina (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jan Hrdina (CC BY-SA 2.0)" -->
 ```dockerfile
 FROM python:3.11.0
 
@@ -78,7 +78,7 @@ $ sudo docker run kool_app:0.2
 ```
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Yves Sorge (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Yves Sorge (CC BY-SA 2.0)" -->
 ```yml
 services:
   db:
@@ -104,7 +104,7 @@ services:
 ![bg right:30%](images/24-neon_forest.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Freed eXplorer (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Freed eXplorer (CC BY 2.0)" -->
 ## Further awesomeness 
 Tons of pre-built images on [Docker hub](https://hub.docker.com/).  
   

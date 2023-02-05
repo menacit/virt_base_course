@@ -22,7 +22,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bixentro (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bixentro (CC BY 2.0)" -->
 # Economic benefits
 ### Time to save money and dress sharply
 
@@ -41,7 +41,7 @@ Segue: Let's start with the simple stuff - HW.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Sergei F (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Sergei F (CC BY 2.0)" -->
 ## Less hardware means...
 - Less data center space
 - Less supporting infrastructure
@@ -67,7 +67,7 @@ Segue: Another thing to consider is that we barely use the computers that we've 
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Roy Luck (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Roy Luck (CC BY 2.0)" -->
 ## _Studies_ show _average_ data center CPU utilization at 6-30%
 
 ![bg right:30%](images/03-oil_refinery.jpg)
@@ -86,7 +86,7 @@ average enterprise environments.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jonathan Brandt (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jonathan Brandt (CC0 1.0)" -->
 ## Resource sharing means...
 - Shared margins for resource utilization
 - Easier capacity planning
@@ -105,7 +105,7 @@ would probably hard to motivate investment in such fancy HW without knowing if i
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Wolfgang Stief (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Wolfgang Stief (CC0 1.0)" -->
 # Technical interlude
 
 ![bg right:30%](images/03-chips_on_pcb.jpg)
@@ -116,7 +116,7 @@ underlying technology a bit better. Let's talk about guest migration.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Austin Design (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Austin Design (CC BY-SA 2.0)" -->
 ## Guest migration
 Move VM from one hypervisor to another.
 
@@ -140,7 +140,7 @@ hand make the guest run seamlessly on the other host. Some don't: offline VS onl
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Austin Design (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Austin Design (CC BY-SA 2.0)" -->
 # Back to business
 
 ![bg right:30%](images/03-smokey_man.jpg)
@@ -150,7 +150,7 @@ Time to tie the tie again.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kuhnmi (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kuhnmi (CC BY 2.0)" -->
 Migration of VMs, especially live, enables service of hypervisors during office hours.  
   
 If hardware breaks, just start up the VM on another host.  
@@ -172,7 +172,7 @@ much.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jeena Paradies (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jeena Paradies (CC BY 2.0)" -->
 Deploying software stacks on hardware requires time consuming planning, procurement and setup.  
   
 Automation and self-service features cuts time required for meetings and hand-overs.  
@@ -196,7 +196,7 @@ between developers and HW team, lot's of room for errors and miscommunication.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jusotil_1943 (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jusotil_1943 (CC0 1.0)" -->
 Virtualisation provides a (more or less) predictable execution environment.  
   
 Testing, installation and support of complex software stacks is expensive.  

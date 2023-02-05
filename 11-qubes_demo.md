@@ -23,7 +23,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Pedro Ribeiro Simões (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Ribeiro Simões (CC BY 2.0)" -->
 # Qubes OS showcase
 ### An alternative vision of the desktop
 
@@ -310,7 +310,7 @@ can be done with CLI tools
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Eric Savage (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Eric Savage (CC BY-SA 2.0)" -->
 ## Not everything is awesome
 - [Requires somewhat fancy HW](https://www.qubes-os.org/doc/system-requirements/)
 - Quite a lot of overhead
@@ -347,7 +347,7 @@ still a lot of things to learn and adopt from Qubes' design....
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Mathias Appel (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Mathias Appel (CC0 1.0)" -->
 ## Get inspired
 - Take a look at [Bromium/HP Wolf Security](https://www.bromium.com/)
 - Use VM and snapshots for risky things

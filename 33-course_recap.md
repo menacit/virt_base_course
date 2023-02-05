@@ -30,14 +30,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 # Virtualisation course recap
 ### Summarising what we've covered
 
 ![bg right:30%](images/33-hdd_macro.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Freed eXplorer (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Freed eXplorer (CC BY 2.0)" -->
 # Exercise: Help the CTO
 Participants are split into four or more groups.  
   
@@ -51,7 +51,7 @@ and VDI. After presentation, send slides to
 ![bg right:30%](images/33-cave.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Yves Sorge (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Yves Sorge (CC BY-SA 2.0)" -->
 ## Org. 1: Examplify
 Cash strapped startup on a mission to make developers (and stockholders) happy.  
   
@@ -64,7 +64,7 @@ Needs to grow fast and has employees all over the world working from home.
 ![bg right:30%](images/33-rocket.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Org. 2: Xample Industries
 Well-established company in heavy-manufacturing.  
   
@@ -77,7 +77,7 @@ Depend on many legacy IT systems for their factory production line.
 ![bg right:30%](images/33-welding.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Org. 3: Department Of Examples
 Spook agency making the world a safer place.  
   
@@ -90,7 +90,7 @@ Plagued by bureocrats, spies and sinister insiders.
 ![bg right:30%](images/33-cyber.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Gerben Oolbekkink (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Gerben Oolbekkink (CC BY 2.0)" -->
 ## Org. 4: Example Airways
 Transportation company with urgent need for efficient greenwashing.  
   
@@ -103,7 +103,7 @@ Need to handle the occasional surge of visitors and bookings on their website.
 ![bg right:30%](images/33-butterflies.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Mauricio Snap (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Mauricio Snap (CC BY 2.0)" -->
 **Remember the target audience/focus area.**  
   
 **If it suites your presentation, add/modify the example organisation's challenges.**
@@ -111,13 +111,13 @@ Need to handle the occasional surge of visitors and bookings on their website.
 ![bg right:30%](images/33-eye.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © OLCF at ORNL (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
 ## Let's summarise!
 
 ![bg right:30%](images/33-data_center.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jennifer Morrow (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jennifer Morrow (CC BY 2.0)" -->
 ## Economic benefits
 Less HW == Less electricity, DC space and painful human labor.  
   
@@ -126,7 +126,7 @@ Enables self-service and automation which helps organisations move faster.
 ![bg right:30%](images/33-sphere.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © USGS EROS (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% USGS EROS (CC BY 2.0)" -->
 ## Reliability benefits
 Maintenance of underlying infrastructure without disruptions.  
   
@@ -137,7 +137,7 @@ Enables quick recovery to a good known state.
 ![bg right:30%](images/33-satellite_photo.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Security benefits
 Reduces attack surface through fine grained segmentation of systems.  
   
@@ -148,14 +148,14 @@ Enables quick recovery to a good known state.
 ![bg right:30%](images/33-lock.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Nacho Jorganes (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Nacho Jorganes (CC BY-SA 2.0)" -->
 ## Environmental benefits
 Less HW == less e-waste and energy consumption.  
 
 ![bg right:30%](images/33-cow.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## OS-level > HW-level
 - Faster!
 - More efficient/higher density
@@ -164,7 +164,7 @@ Less HW == less e-waste and energy consumption.
 ![bg right:30%](images/33-core_memory.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Marco Verch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Marco Verch (CC BY 2.0)" -->
 ## OS-level < HW-level
 - Easier to break isolation
 - Less stable/predictable
@@ -173,7 +173,7 @@ Less HW == less e-waste and energy consumption.
 ![bg right:30%](images/33-pcb_macro.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Bret Bernhoft (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bret Bernhoft (CC0 1.0)" -->
 # DE\_END
 ### Thanks for listening!
 

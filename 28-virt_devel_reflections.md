@@ -21,14 +21,14 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kuhnmi (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kuhnmi (CC BY 2.0)" -->
 # Reflections
 ### What have we learned about virtualised development so far?
 
 ![bg right:30%](images/28-bird.jpg)
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Helsinki Hacklab (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Helsinki Hacklab (CC BY 2.0)" -->
 ## Answer the following questions
 - What are your most important take-aways?
 - Did you have any "Ahaaa!"-moments?

@@ -23,7 +23,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 # Security recap
 ### Pros and cons of virtualisation
 
@@ -34,7 +34,7 @@ style: |
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © AK Rockefeller (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% AK Rockefeller (CC BY-SA 2.0)" -->
 # Exercise: Convince Eddy
 Participants are split into two or more groups.  
   

@@ -29,7 +29,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Wendelin Jacober (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Wendelin Jacober (CC0 1.0)" -->
 # Downsides of virtualisation
 ### ~~The good~~, the bad and the ugly
 
@@ -40,7 +40,7 @@ Not all is a dance on roses.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Tofoli Douglas (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Tofoli Douglas (CC0 1.0)" -->
 ## Economics
 More messy licenses to care about.  
   
@@ -56,7 +56,7 @@ them: they still need to patched and when they break humans take care of them.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jesse James (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jesse James (CC BY 2.0)" -->
 ## Reliability
 More code means more complexity and things that can break.  
 
@@ -76,7 +76,7 @@ reconnections and migration between remote endpoints is likely a way simpler sol
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Kristina Hoeppner (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kristina Hoeppner (CC BY-SA 2.0)" -->
 ## Security
 Isolation is not perfect, many eggs in one basket.  
   
@@ -91,7 +91,7 @@ Basically what the slide says.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Jonathan Brandt (CC0 1.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Jonathan Brandt (CC0 1.0)" -->
 ## Performance
 Always some overhead, depending on workload it may be significant.  
   

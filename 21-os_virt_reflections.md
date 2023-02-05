@@ -22,7 +22,7 @@ style: |
   }
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Simon Claessen (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Simon Claessen (CC BY-SA 2.0)" -->
 # Reflections
 ### What have we learned so far about OS-level virtualisation?
 
@@ -33,7 +33,7 @@ Take some time to reflect before forcing more knowledge into your brain.
 -->
 
 ---
-<!-- _footer: "© Course authors (CC BY-SA 4.0) - Image: © Martin Fisch (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## Answer the following questions
 - What is the largest benefit of OS-level virtualisation for you? 
 - Can you think of any other use-cases where namespaces could help?
