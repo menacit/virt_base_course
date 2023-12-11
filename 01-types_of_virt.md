@@ -172,7 +172,7 @@ who battle for the title: many which are freely available.
 - Most OS functionality provided in an isolated manner to each jail
 - Very popular for web and shell hosting
 
-![bg right:30%](images/freebsd_aaa.jpg)
+![bg right:30%](images/01_freebsd.jpg)
 
 <!--
 - First virtualisation on UNIX, inspired Solaris Zones, OpenVZ and other solutions.
