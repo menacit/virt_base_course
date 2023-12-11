@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Cons/Negatives"
@@ -82,7 +82,7 @@ Isolation is not perfect, many eggs in one basket.
   
 Must trust underlying infrastructure, control plane and humans.  
   
-Way to easy to spin-up and forget about systems.
+Way too easy to spin-up and forget about systems.
 
 ![bg right:30%](images/07-sheep.jpg)
 

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Economic benefits"
@@ -173,7 +173,7 @@ much.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Jeena Paradies (CC BY 2.0)" -->
-Deploying software stacks on hardware requires time consuming planning, procurement and setup.  
+Deploying software stacks on hardware requires time-consuming planning, procurement and setup.  
   
 Automation and self-service features cuts time required for meetings and hand-overs.  
   

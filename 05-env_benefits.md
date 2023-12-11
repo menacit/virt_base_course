@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Environmental benefits"
@@ -40,7 +40,7 @@ Describe environmental benefits of using virtualisation based on what you've lea
   
 Feel free to discuss with others, but every participant should submit their own pitch.  
   
-**[virt_course+010501@%EMAIL_DOMAIN%](mailto:virt_course+010501@%EMAIL_DOMAIN%)**
+**[courses+virt\_010501@%EMAIL_DOMAIN%](mailto:courses+virt_010501@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/05-greta.jpg)
 

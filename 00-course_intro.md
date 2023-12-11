@@ -73,7 +73,7 @@ How and why virtualisation help the industry save money, improve uptime and secu
 
 ---
 For detailed notes, recorded lectures and similar, see:   
-**[%RESOURCES_DOMAIN%/virt_course.zip](https://%RESOURCES_DOMAIN%/virt_course.zip)**.  
+**[%RESOURCES_DOMAIN%/virt.zip](%RESOURCES_ARCHIVE%)**.  
   
 These resources should be seen as a complement to an instructor lead course, not a replacement.
 
