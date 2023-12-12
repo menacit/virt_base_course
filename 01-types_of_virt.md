@@ -165,14 +165,14 @@ who battle for the title: many which are freely available.
 -->
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Fandrey (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Flickr/Jeffrey (CC BY-NC 2.0)" -->
 ## FreeBSD Jails
 - Introduced in version 4.0 (2000)
 - Lazy solution to "UID 0 problem"
 - Most OS functionality provided in an isolated manner to each jail
 - Very popular for web and shell hosting
 
-![bg right:30%](images/01_freebsd.jpg)
+![bg right:30%](images/01-freebsd.jpg)
 
 <!--
 - First virtualisation on UNIX, inspired Solaris Zones, OpenVZ and other solutions.
