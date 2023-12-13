@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Security recap"
@@ -41,7 +41,7 @@ Participants are split into two or more groups.
 Half should present the security benefits of using virtualisation while the other do the opposite.
   
 After presentation, send slides to
-**[virt_course+011401@%EMAIL_DOMAIN%](mailto:virt_course+011401@%EMAIL_DOMAIN%)**
+**[course+virt\_011401@%EMAIL_DOMAIN%](mailto:courses+virt_011401@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/14-snowden.jpg)
 

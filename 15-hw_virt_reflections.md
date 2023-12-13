@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: HW-level virtualisation reflections"
@@ -33,7 +33,7 @@ style: |
 - Did you have any "Ahaaa!"-moments?
 - Was there anything that was unclear or that you didn't understand?
   
-**[virt_course+011501@%EMAIL_DOMAIN%](mailto:virt_course+011501@%EMAIL_DOMAIN%)**
+**[courses+virt\_011501@%EMAIL_DOMAIN%](mailto:courses+virt_011501@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/15-chip.jpg)
 

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Introduction recap"
@@ -47,7 +47,8 @@ Built foundation for further understanding of technologies available on the mark
 ## Recap of prerequisites
 Install [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on host/hardware.  
   
-Manually setup virtual machine with [Ubuntu Server 22.04](https://ubuntu.com/download/server).  
+Manually setup virtual machine with
+[Ubuntu Server 22.04](https://ubuntu.com/download/server).  
 
 Install Docker Engine **in Ubuntu VM** using method describe in
 [Docker's official documentation](https://docs.docker.com/engine/install/ubuntu/).
@@ -66,7 +67,7 @@ Clarify and remind students about required software setup for the course
 - Explain why virtualisation can have a negative impact on performance
 - Describe why network/shared storage is most often used for storing virtual disks of VMs
   
-**[virt_course+010901@%EMAIL_DOMAIN%](mailto:virt_course+010901@%EMAIL_DOMAIN%)**
+**[courses+virt\_010901@%EMAIL_DOMAIN%](mailto:courses+virt_010901@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/09-minerals.jpg)
 

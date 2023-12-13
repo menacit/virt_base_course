@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Confidential computing"
@@ -31,7 +31,7 @@ style: |
 <!--
 - Virtualisation is in general very beneficial for security, as we've discovered during the course
 
-Segue: It does however have it's downsides...
+Segue: It does however have it's downsides and doesn't solve every problem...
 -->
 
 ---
@@ -116,7 +116,7 @@ systems can still get hacked. New vulnerabilities and attack techniques are disc
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Quinn Dombrowski (CC BY-SA 2.0)" -->
-Currently lots of interest (see "money") in solving these issues for cloud and edge computing.  
+Currently, lots of interest (see "money") in solving these issues for cloud and edge computing.  
   
 "Confidential computing" is the collective term used for attempted solutions.
 
@@ -136,7 +136,7 @@ infrastructure
 - Large and security concious organisations would like to save money by using internally pooled
 virtual infrastructure, but have some many different security requirements that it is hard to do so
 
-- Growing interest in edge computing (ttps://en.wikipedia.org/wiki/Edge_computing), which often
+- Growing interest in edge computing (https://en.wikipedia.org/wiki/Edge_computing), which often
 means that servers will move from relatively safe data centers (from a physical perspective) to
 small service lockers next to the highway or in the forest. It may be tricky to prevent malicious
 actors from physically gaining access to the HW in these cases
@@ -152,7 +152,6 @@ wanna utilize it.
 - Prevent host (and other guests) from peaking at/modifying VM memory
 - Guests are still vulnerable against many different types of attacks
 - AMD SEV\* is an example of a solution
-
 
 ![bg right:30%](images/12-rusty_lock.jpg)
 

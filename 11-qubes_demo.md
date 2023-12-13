@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Qubes OS showcase"
@@ -161,8 +161,8 @@ Segue: Qubes OS comes with a bunch of default qubes as we've seen, but you can e
 <!--
 - Choose a name and a border color for the Qube: a qube per customer and/or project is a good thing
 
-- We can also which template to use for the VM, Qubes OS comes with Debian and Fedora, Kali Linux
-(https://www.kali.org/) can be installed as well (a good choice for penetration testers)
+- We can also select which template to use for the VM, Qubes OS comes with Debian and Fedora,
+Kali Linux (https://www.kali.org/) can be installed as well (a good choice for penetration testers)
 -->
 
 ---
@@ -196,7 +196,7 @@ Segue: Qubes OS provides some tools that help us the desktop without giving up o
 
 - Qubes OS shows a dialog in the grey dom0 (administrative VM, basically not a regular qube, could
 be considered "the host" to keep things simple) that tells us that VM X wants to copy a file to VM
-Z, which prevents qubes from moving a round data without the user noticing
+Z, which prevents qubes from moving around data without the user noticing
 -->
 
 ---

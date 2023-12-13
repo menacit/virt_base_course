@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Options for HW-level virtualisation"
@@ -97,7 +97,7 @@ traditional OSes in VMs
 <!-- _footer: "%ATTRIBUTION_PREFIX% Fandrey (CC BY 2.0)" -->
 ## Bhyve
 - HW-level virtualisation for FreeBSD
-- Ported to Mac OS
+- Ported to macOS and Illumos
 - Designed to explicitly not support legacy operating systems
 
 ![bg right:30%](images/10-beastie.jpg)
@@ -162,7 +162,7 @@ Segue: Let's break these components down and see what purpose they serve
 ## QEMU
 - Swiss army knife of emulation
 - Emulates BIOS/UEFI and devices
-- Security was not highest priority
+- Security was not the highest priority
 
 ![bg right:30%](images/10-mountains.jpg)
 
@@ -330,7 +330,7 @@ full control of all software running on the machine
 manager is delegated to dom0 (the privileged VM used to manage the system and other VMs), Xen has
 a relatively small TCB
 
-- If you wanna try it out, the easiest way is probably to install XCP-NG (https://xcp-ng.org/) on
+- If you wanna try it out, the easiest way is probably to install XCP-NG (https://xcp-ng.org/)
 
 Segue: Due to these properties, Xen was chosen as the virtualisation technology for Qubes OS...
 -->
