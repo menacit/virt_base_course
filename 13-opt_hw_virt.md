@@ -66,7 +66,7 @@ Let's not pretend that guests are running on real hardware.
   
 Virtual devices don't necessarily need to act like physical HW and can be much more efficient.  
   
-Virtio offers standardised virtual devices such as NICs, block devices, sockets and sound cards.
+Virtio offers standardised virtual devices such as NICs, block devices (HDD, RAID, USB etc), sockets and sound cards.
 
 ![bg right:30%](images/13-solder_pcb.jpg)
 
