@@ -42,3 +42,4 @@ Hats off to all FOSS developers and free culture contributors making it possible
 ## Contributors
 - [Joel Rangsmo](https://github.com/doctor-love)
 - [semeiths](https://github.com/semeiths)
+- [Palsmo](https://github.com/Palsmo)

@@ -117,7 +117,8 @@ Thanks to [IT-Högskolan](https://www.iths.se/) and Särimner for enabling devel
 Hats off to all FOSS developers and free culture contributors making it possible.
 
 ## Contributors
-[Joel Rangsmo](https://github.com/doctor-love) and [semeiths](https://github.com/semeiths).
+[Joel Rangsmo](https://github.com/doctor-love), [semeiths](https://github.com/semeiths) and
+[Palsmo](https://github.com/Palsmo).
 
 ![bg right:30%](images/00-koala.jpg)
 
