@@ -191,7 +191,6 @@ some of these vulnerabilities/attacks...
 - Intel tries to solve this with [TDX](https://intel.github.io/ccc-linux-guest-hardening-docs/)
 - AMD [SEV-ES](https://developer.amd.com/sev/) is another solution
 
-
 ![bg right:30%](images/12-snow_dome.jpg)
 
 <!--
