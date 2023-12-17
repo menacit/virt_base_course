@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation technology"
@@ -199,6 +199,8 @@ members can only see things in their dedicated namespace(s)
 - There are currently eight different ones and new ones are in development, we'll focus one the
 ones that are most important and/or easy to understand
 
+- Cgroup, IPC, Network, Mount, PID, Time, User, UTS
+
 Segue: This is a bit complicated to explain, some examples may help...
 -->
 
@@ -303,9 +305,9 @@ TODO: Write better descriptions of non-virt use-cases
 ## User namespace
 Root in chroot is root.  
   
-Lot's of things such as package managers expect root privileges, but don't really need it.  
+Lots of things such as package managers expect root privileges, but don't really need it.  
   
-User namespaces gives members their own group and user lists.
+User namespaces give members their own group and user lists.
 
 ![bg right:30%](images/19-wireframe_head.jpg)
 

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation overview"
@@ -72,7 +72,7 @@ Create an isolated environment
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 FreeBSD's Linuxulator and Windows' WSL v1 allows execution of (many) Linux applications. 
   
-[Wine](https://www.winehq.org/) allows (many) Windows programs to run on Linux, \*BSD and Mac OS.
+[Wine](https://www.winehq.org/) allows (many) Windows programs to run on Linux, \*BSD and macOS.
 
 ![bg right:30%](images/17-silo.jpg)
 

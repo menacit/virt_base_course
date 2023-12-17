@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: LXC/LXD demo"
@@ -11,6 +11,7 @@ keywords:
   - "os"
   - "lxc"
   - "lxd"
+  - "incus"
   - "demo"
   - "demonstration"
   - "devops"
@@ -277,3 +278,14 @@ the easy clustering
 especially not for OS-level guests. As a rule of thumb, expect the ability to live migrate HW-level
 guests but not OS-level guests (they are however usually quite fast to offline migrate)
 -->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Rod Waddington (CC BY-SA 2.0)" -->
+Recent drama in the development community
+has caused several contributors to leave
+the LXD project.  
+
+Checkout the community-driven
+fork called [Incus](https://linuxcontainers.org/incus/).
+
+![bg right:30%](images/18-robot_streetart.jpg)

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Course progress recap"
@@ -187,25 +187,17 @@ is a magic number - that could use some clarification...
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Andrew Hart (CC BY-SA 2.0)" -->
-Three is a magic number as it enables voting with majority decisions.  
-  
-This allows things like DB clusters to operate during partial outages and reconcile afterwards.
+Qubes OS is neat, but requires decent hardware.  
+
+\>10GB RAM, Intel VT-x/AMD-V
+and Intel VT-d/AMD-Vi.  
+
+Checkout the ["hardware compatibility list"](https://www.qubes-os.org/hcl/).  
 
 ![bg right:30%](images/16-seals.jpg)
 
 <!--
-- Two people can have a hard time making decision: a third helps deciding
-
-- The same is true in computing, high-availability can be achieved with two servers, but if they
-loose contact with each other should both operate at the same time? What if they are both modifying
-state, such as a user database - who is right afterwards if they have opposing data saved?
-
-- This is called a "split-brain" scenario
-
-- To solve this problem, nodes in a high-availability cluster can describe which peers they see and
-vote (create a quorum) regarding which node should be responsible for handling state
-
-- Uneven number of nodes enables voting without stalemates 
+- Students showed interest in Qubes OS, but don't know which HW to run it on
 -->
 
 ---
@@ -261,7 +253,14 @@ OSes and apps handle super big instances very well
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Jeena Paradies (CC BY 2.0)" -->
-**Read assignment descriptions carefully and send results to the right address.**
+If you got some spare hardware,
+why not try setting up
+[Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/)
+or [XCP-NG](https://xcp-ng.org/)?  
+
+Play around with advanced features,
+such as live migration and
+PCI forwarding.
 
 ![bg right:30%](images/16-stones.jpg)
 

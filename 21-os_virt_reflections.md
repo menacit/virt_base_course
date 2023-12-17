@@ -35,11 +35,11 @@ Take some time to reflect before forcing more knowledge into your brain.
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## Answer the following questions
-- What is the largest benefit of OS-level virtualisation for you? 
+- What is the largest benefit of OS-level virtualisation in your opinion? 
 - Can you think of any other use-cases where namespaces could help?
-- Suggestions for ways to compensate the risks introduced by OS-level virtualisation?
+- Suggestions for ways to compensate/mitigate the risks introduced by OS-level virtualisation?
 - Was there anything that was unclear or that you didn't understand?
   
-**[virt_course+012101@%EMAIL_DOMAIN%](mailto:virt_course+012101@%EMAIL_DOMAIN%)**
+**[courses+virt\_012101@%EMAIL_DOMAIN%](mailto:courses+virt_012101@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/21-tigers.jpg)

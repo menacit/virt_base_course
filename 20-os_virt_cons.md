@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation cons"
@@ -46,7 +46,7 @@ style: |
 ## Reliability
 Live migration is wonky.  
 
-Kernel version may different from what is expected by the guest.  
+Kernel version may be different from what is expected by the guest.  
   
 Linux can behave... interestingly... when many different tasks are running.  
   
@@ -77,9 +77,9 @@ every guest and host
 ## Security
 Gaps between the different isolation features.  
 
-Host expose a huge attack surface to the guests.  
+Host exposes a huge attack surface to the guests.  
   
-Compatibility has been priority, not security.
+Compatibility has been the priority, not security.
 
 ![bg right:30%](images/20-gnome.jpg)
 
