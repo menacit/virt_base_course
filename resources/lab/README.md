@@ -56,7 +56,7 @@ All tools required to complete the assignment should be pre-installed on the stu
 - Verify that setup works as intended by executing the following validation steps:
   - Execute "vagrant ssh -c 'python3 /app/mixologyfy.py' " on the host to start the lab application
   - Open a web browser on the host and access the lab web application at "http://localhost:1337/"
-  - Modify the HTML template file ("app-src/index.html.j2") on the host system
+  - Modify the HTML template file ("app-src/index.html.jinja") on the host system
   - Refresh the lab web application in the host web browser and observe the template modification
 
 ### Meritorious - Executed in Ubuntu VM ("VG")
