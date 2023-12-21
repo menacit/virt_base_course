@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Docker demo"
@@ -82,21 +82,21 @@ $ sudo docker run kool_app:0.2
 ```yml
 services:
   db:
-    image: postgres:14
+    image: database:14
     volumes:
-      - ./data/db:/var/lib/postgresql/data
+      - ./data/db:/var/lib/database/data
     environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=G0d!
+      - DB_USER=myapp
+      - DB_PASSWORD=G0d!
 
   web:
     image: my_awesome_app:v9
     ports:
-      - "8000:8000"
+      - "80:8000"
     environment:
-      - DB_URL=pgsql://db
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=G0d!
+      - DB_URL=sql://db
+      - DB_USER=myapp
+      - DB_PASSWORD=G0d!
     depends_on:
       - db
 ```

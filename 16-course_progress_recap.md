@@ -124,7 +124,7 @@ hypervisors more or less independently to mitigate the risks. It's not an inheri
 <!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
 "Pizza box" is slang for rack server.  
   
-Physical servers requires time, money and energy to get/keep up and running.  
+Physical servers require time, money and energy to get/keep up and running.  
   
 Most software vendors don't want to manage physical appliances.
 
@@ -162,7 +162,7 @@ Segue: Let's take a closer look
 <!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
 "Pizza box" is slang for rack server.  
   
-Physical servers requires time, money and energy to get/keep up and running.  
+Physical servers require time, money and energy to get/keep up and running.  
   
 Most software vendors don't want to manage physical appliances.
 

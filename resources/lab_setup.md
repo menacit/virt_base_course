@@ -91,6 +91,7 @@ execute the following commands:
 $ mkdir vtest; cd vtest
 $ vagrant init ubuntu/jammy64
 $ vagrant up
+$ vagrant ssh
 ```
 
 If successfully executed, the student should be presented with a shell prompt in a new VM.

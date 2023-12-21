@@ -34,7 +34,7 @@ style: |
 - Did you have any "Ahaaa!"-moments?
 - Was there anything that was unclear or that you didn't understand?
   
-**[virt_course+012801@%EMAIL_DOMAIN%](mailto:virt_course+012801@%EMAIL_DOMAIN%)**
+**[courses+virt\_012801@%EMAIL_DOMAIN%](mailto:courses+virt_012801@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/28-beer_tap.jpg)
 

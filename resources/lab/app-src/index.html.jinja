@@ -1,0 +1,45 @@
+{#
+SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-License-Identifier: CC-BY-SA-4.0
+X-Context: Virtualisation course - Lab
+#}
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>&#127864; Mixologyfy!</title>
+</head>
+<body>
+<marquee><h1>&#129380; Mixologyfy! &#127868;</h1></marquee>
+<h2>&#128151; Number of favorites: {{ favorites | length }}</h2>
+<h2>&#128513; Enjoy (or not) some of these drinks:</h2>
+<!-- cocktail data below: -->
+
+{% for cocktail in cocktails %}
+<hr />
+<pre {% if cocktail.name in favorites %}style="color:green"{% endif %}>
+{{ cocktail.figlet_name }}
+
+## Ingredients
+{% for ingredient in cocktail.ingredients  %}
+{% if 'special' in ingredient %}
+- {{ ingredient.special }}
+{% else %}
+- {{ ingredient.amount }} {{ ingredient.unit }}: {{ ingredient.ingredient }}
+{% endif %}
+{% endfor %}
+
+## Instructions
+{{ cocktail.preparation }}
+</pre>
+
+<h3 {% if not database_enabled %}
+style="text-decoration:line-through"
+{% endif %}>
+<a href="/add_favorite/{{ cocktail.name }}">&#127864; Add to favorites!</a>
+</h3>
+
+{% endfor %}
+
+</body>
+</html>
