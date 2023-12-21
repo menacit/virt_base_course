@@ -41,6 +41,7 @@ using [HashiCorp Vagrant](https://www.vagrantup.com/) and/or
 [Docker Compose](https://docs.docker.com/compose/).
 
 All tools required to complete the assignment should be pre-installed on the student's lab system. 
+The "mixologyfy.py" script may not be modified during process.
 
 
 ## Tasks
