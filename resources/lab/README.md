@@ -122,8 +122,9 @@ works and why potential problems occur.
 
 
 ### Reviewing application setting variables
-Configuration options of the lab application can be tweaked by modifying environment variables.
-For a complete list of options, review the initial documentation section of "mixologyfy.py".
+Configuration options of the lab application, such as the HTML template file path, can be tweaked
+by modifying/setting environment variables. For a complete list of options, review the initial
+documentation/comment section in "mixologyfy.py".
 
 
 ### Vagrant and working directory
