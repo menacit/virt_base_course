@@ -138,12 +138,23 @@ file name is correct, execute one of the following commands depending on operati
 
 ***Windows**:
 ```
-type Vagrantfile
+$ type Vagrantfile
 ```
 
 **Linux/macOS**:
 ```
-cat Vagrantfile
+$ cat Vagrantfile
+```
+
+
+### Re-provision Vagrant guest
+When a Vagrant guest is first created (after execution of "vagrant up" command), any configured
+provisioners (such as "shell") are executed. This process only happens during the initial boot.
+If the Vagrantfile has been changed since its initial startup, it may be desirable to run the
+following command to reload its configuration and forcefully execute provisioners:
+
+```
+$ vagrant reload --provision
 ```
 
 
@@ -204,6 +215,7 @@ indentation is also highly recommended.
 
 ### Links
 - [Wikipedia: "Environment variables"](https://en.wikipedia.org/wiki/Environment_variable)
+- [AlmaLinux Wiki: "Extra repositories"](https://wiki.almalinux.org/repos/Extras.html)
 - [Vagrant CLI documentation](https://developer.hashicorp.com/vagrant/docs/cli)
 - [Vagrant boxes repository](https://app.vagrantup.com/boxes/search)
 - [Vagrant "shell" provisioner](https://developer.hashicorp.com/vagrant/docs/provisioning/shell)
