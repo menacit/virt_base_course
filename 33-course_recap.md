@@ -46,7 +46,7 @@ pros/cons of virtualisation, targeted towards a **CTO role** in an assigned exam
   
 The presentation should cover usage of HW-/OS-level virtualisation, virtual/container development
 and VDI. After presentation, send slides to
-**[virt_course+013301@%EMAIL_DOMAIN%](mailto:virt_course+013301@%EMAIL_DOMAIN%)**
+**[courses+virt\_013301@%EMAIL_DOMAIN%](mailto:courses+virt_013301@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/33-cave.jpg)
 
