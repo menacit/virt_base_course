@@ -215,6 +215,14 @@ issues, the "yamllint" program/command can be installed and utilized. A text edi
 indentation is also highly recommended.
 
 
+### "Errno -3: Try again!"
+If the Mixologyfy Python script fails to start due to the database error "Errno -3: Try again!",
+it means that the application couldn't resolve the hostname specified in the database URI.
+Ensure that the correct hostname is used (matching the application container's name in the file
+"docker-compose.yml") and that the correct environment variable name is used to specify the
+database connection URI setting.
+
+
 ### Links
 - [Wikipedia: "Environment variables"](https://en.wikipedia.org/wiki/Environment_variable)
 - [AlmaLinux Wiki: "Extra repositories"](https://wiki.almalinux.org/repos/Extras.html)
@@ -234,3 +242,4 @@ indentation is also highly recommended.
 - [PostgreSQL image on Docker Hub](https://hub.docker.com/_/postgres/)
 - [PGSQL connection URIs](https://www.prisma.io/dataguide/postgresql/short-guides/connection-uris)
 - ["pg\_isready" documentation](https://www.postgresql.org/docs/current/app-pg-isready.html)
+- [Psycopg installation guide](https://www.psycopg.org/psycopg3/docs/basic/install.html)
