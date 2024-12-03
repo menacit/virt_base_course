@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-FileCopyrightText: © 2022 semeiths
 SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -48,9 +48,9 @@ need to be an expert but knowing what kernel space and user space is will surely
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kristina Hoeppner (CC BY-SA 2.0)" -->
 ## You need to setup...
-- Virtual machine with [Ubuntu Server 22.04](https://ubuntu.com/download/server)
-- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **in the Ubuntu VM**
-- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on your host machine
+- Physical/Virtual machine with [Ubuntu 24.04](https://ubuntu.com/download/server)
+- [Docker Engine](https://docs.docker.com/engine/install/ubuntu/) installed **on Ubuntu**
+- [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on your physical machine
   
 For details and guidance, see:
 [**"resources/lab\_setup.md"**](%RESOURCES_DIRECTORY%/lab_setup.md).

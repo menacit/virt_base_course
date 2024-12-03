@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 X-Context: Virtualisation course - Lab setup guidance
 -->
@@ -15,10 +15,11 @@ assistance from the course teacher(s).
 ## Required steps
 
 ### Downloading Ubuntu ISO
-The lab environment has been designed and tested on Ubuntu Server 22.04.
-Navigate to the [official Ubuntu download web page](https://ubuntu.com/download/server) and
-select the "Download Ubuntu Server 22.04.3 LTS" option. This should trigger the download of an
-installation image ("ubuntu-22.04.3-live-server-amd64.iso").
+This step is only required if the student is not running Ubuntu 24.04 on their physical machine.  
+  
+Navigate to the [official Ubuntu Server download web page](https://ubuntu.com/download/server)
+and select "Download 22.04.1 LTS". This should trigger the download of an ISO formatted
+installation image ("ubuntu-24.04.1-live-server-amd64.iso").
 
 
 ### Installing compatible VMM
@@ -37,6 +38,8 @@ Users of macOS on modern Apple hardware who experience problems with VirtualBox 
 
 
 ### Creating lab VM
+This step is only required if the student is not running Ubuntu 24.04 on their physical machine.  
+  
 In your VMM, create a new virtual machine and specify the downloaded Ubuntu Server ISO as the
 installation medium.
 
@@ -56,13 +59,13 @@ $ ping -c 3 one.one.one.one && cat /etc/lsb-release
 ```
 
 If the VM is properly setup and configured, the command above should successfully connect to a
-remote host (verifying a working Internet connection) and include "DISTRIB\_RELEASE=22.04" in its
+remote host (verifying a working Internet connection) and include "DISTRIB\_RELEASE=24.04" in its
 output.
 
 
-### Installing Docker in VM
-The containerisation software "Docker" is utilized during the course labs and must be installed on
-the Ubuntu Server VM created during the previous step. There are several options available to
+### Installing Docker on Ubuntu
+The containerisation software "Docker" is utilized during the course labs and must be installed in
+the Ubuntu environment configured during the previous step. There are several options available to
 install Docker and its required dependencies, but the only one tested for course labs is the
 [official "repository" installation method](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository).
 
@@ -71,15 +74,29 @@ has been setup correctly:
 
 ```
 $ sudo usermod -a -G docker ${USER}
-$ newgrp
+$ newgrp docker
 $ docker run hello-world
 ```
 
-If the student is experiencing permission issues with Docker, reboot the virtual machine and
+If executed successfully, the commands should produce output similar to the example below:
+
+```
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Already exists 
+Digest: sha256:305243c734571da2d100c8c8b3c3167a098cab6049c9a5b066b6021a60fcb966
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+[...]
+```
+
+If the student is experiencing permission issues with Docker, reboot the Ubuntu environment and
 try again.
 
 
-### Installing Vagrant on host
+### Installing Vagrant
 On the student's host computer (physical computer with a virtual machine manager installed),
 [download and install](https://developer.hashicorp.com/vagrant/docs/installation) the VM automation
 software ["HashiCorp Vagrant"](https://www.vagrantup.com/).  
@@ -89,15 +106,37 @@ execute the following commands:
 
 ```
 $ mkdir vtest; cd vtest
-$ vagrant init ubuntu/jammy64
+$ vagrant init bento/ubuntu-24.04
 $ vagrant up
 $ vagrant ssh
 ```
 
-If successfully executed, the student should be presented with a shell prompt in a new VM.
+If successfully executed, the student should be presented with a shell prompt in a new VM.  
+If the setup process hangs for an excessive amount of time or exits with an error during execution
+of the "vagrant up" command, open the virtual display/console for the newly created VM in your VMM
+("Show" when selecting the guest in VirtualBox GUI, for example) to investigate its boot logs.
+  
+Once the verification process has been completed successfully, exit the guest shell prompt and
+execute "vagrant destroy" to delete the test VM.
 
 
 ## Troubleshooting guidance
+
+### Problems starting/destroying Vagrant VM
+When executing Vagrant commands, the student may encounter error messages containing the following
+string:
+
+```
+A Vagrant environment or target machine is required to this command.
+```
+
+This typically occurs when the command is not executed in the correct
+directory. Before issuing any Vagrant commands, ensure that the current working directory is the
+same as the "Vagrantfile" was created in:
+
+```
+$ cd /path/to/vtest && ls Vagrantfile
+```
 
 ### Enabling virtualisation support
 Virtualisation software like VirtualBox relies on hardware features included in most processors.
@@ -126,3 +165,9 @@ $ "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" setproperty machinefolder 
 ```
 
 Copy the "resources" directory into "C:\\vagrant\_data" and re-execute "vagrant up".
+
+
+### "Permission denied" when using Gitbash
+On a Windows system, Vagrant commands should not be executed in a "Gitbash" shell as it has known
+compatibility issues, especially related to SSH authentication to the guest VM. If possible,
+utilize a PowerShell prompt or the ["Windows Terminal" app](https://aka.ms/terminal) instead.

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Introduction"
@@ -72,7 +72,7 @@ How and why virtualisation help the industry save money, improve uptime and secu
 -->
 
 ---
-For detailed notes, recorded lectures and similar, see:   
+For detailed notes, slides and similar, see:   
 **[%RESOURCES_DOMAIN%/virt.zip](%RESOURCES_ARCHIVE%)**.  
   
 These resources should be seen as a complement to an instructor lead course, not a replacement.
@@ -116,7 +116,7 @@ Thanks to [IT-Högskolan](https://www.iths.se/) and Särimner for enabling devel
   
 Hats off to all FOSS developers and free culture contributors making it possible.
 
-## Contributors
+## Course contributors
 [Joel Rangsmo](https://github.com/doctor-love), [semeiths](https://github.com/semeiths) and
 [Palsmo](https://github.com/Palsmo).
 
