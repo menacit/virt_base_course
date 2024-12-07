@@ -44,7 +44,7 @@ Not all is a dance on roses.
 ## Economics
 More messy licenses to care about.  
   
-System sprawl - many guests to take care of.
+"System/VM sprawl" - many guests to take care of.
 
 ![bg right:30%](images/07-mountain.jpg)
 

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Environmental benefits"
@@ -38,8 +38,8 @@ You young people care about the environment, don't you?
 # Exercise: Pitch to Greta
 Describe environmental benefits of using virtualisation based on what you've learned so far.  
   
-Feel free to discuss with others, but every participant should submit their own pitch.  
-  
+Participants are split into groups.
+After discussion, send notes to:
 **[courses+virt\_010501@%EMAIL_DOMAIN%](mailto:courses+virt_010501@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/05-greta.jpg)
@@ -80,3 +80,11 @@ Basically the same as for saving money on HW.
 - Besides the peaks, most hypervisors could likely be shutdown to electricity/produce less heat.
 For this to be reasonable, live migration and/or batch workloads are likely needed.
 -->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
+VM (live) migration enables temporary
+transfer of workloads to regions with
+a surplus of renewable energy.
+
+![bg right:30%](images/05-forest_dome.jpg)
