@@ -42,10 +42,11 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
-## VMware
-- ESXI is directly installed on HW
-- Great functionality for clustering
-- Expensive and proprietary, but batteries are safely included
+## VMware ESXi
+- Directly installed on HW
+- Primarily used for hosting virtual servers
+- Great functionality for clustering through "vCenter"
+- Expensive and proprietary, but batteries are included
 
 ![bg right:30%](images/10-bees.jpg)
 
@@ -65,9 +66,7 @@ style: |
 <!-- _footer: "%ATTRIBUTION_PREFIX% Daniel Oliva Barbero (CC BY 2.0)" -->
 ## Hyper-V
 - Window's native virtualisation technology
-- Does what you expect these days
-- Powers WSL version 2
-- Foundation of impressive "VBS" functionality
+- Used internally by Windows features like "WSL v2" and "VBS"
 - Somewhat messy licensing
 
 ![bg right:30%](images/10-vapor_windows.jpg)
@@ -94,32 +93,16 @@ traditional OSes in VMs
 -->
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Fandrey (CC BY 2.0)" -->
-## Bhyve
-- HW-level virtualisation for FreeBSD
-- Ported to macOS and Illumos
-- Designed to explicitly not support legacy operating systems
-
-![bg right:30%](images/10-beastie.jpg)
-
-<!--
-- Mostly anecdotal, bring this up as we've previously talked about jails
-
-- FreeBSD is not so widely used these days, but probably lots of users on the Mac port as it is/was
-used for Docker on Mac OS
-
-- By not supporting legacy OSes, less code/complexity is required.
-
-- Less code == less risk for bugs and easier to audit/maintain/change
--->
-
----
 <!-- _footer: "%ATTRIBUTION_PREFIX% Maja Dumat (CC BY 2.0)" -->
 ## "KVM"
 What people really mean is
 **libvirt + QEMU + KVM**.  
   
-Most used virtualisation stack on Linux and the base for offerings from Red Hat and Canonical.
+Most widely used virtualisation stack
+on Linux and the base for offerings
+from Red Hat and Canonical.
+
+Commonly used by public cloud providers.
 
 ![bg right:30%](images/10-tunnel.jpg)
 

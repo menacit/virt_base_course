@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-FileCopyrightText: © 2023 Palsmo
 SPDX-License-Identifier: CC-BY-SA-4.0
 
@@ -89,9 +89,12 @@ such as NICs and SATA HDDs
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Freestocks.org (CC0 1.0)" -->
 ## Memory and data optimization
-Deduplication may be used for both guest memory/RAM and disk to save a lot of space.  
+Deduplication _(only store unique data once)_
+may be used for both guest memory/RAM
+and disk to save a lot of space.  
   
-Memory ballooning features enables overprovisioning of RAM in guests.
+"Memory ballooning" features enables
+overprovisioning of RAM in guests.
 
 ![bg right:30%](images/13-cow.jpg)
 

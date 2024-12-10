@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Introduction recap"
@@ -45,13 +45,11 @@ Built foundation for further understanding of technologies available on the mark
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kojach (CC BY 2.0)" -->
 ## Recap of prerequisites
-Install [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) on host/hardware.  
-  
-Manually setup virtual machine with
-[Ubuntu Server 22.04](https://ubuntu.com/download/server).  
+Install [HashiCorp Vagrant](https://developer.hashicorp.com/vagrant/downloads) and
+a VMM _(like Virtualbox)_ on physical machine.  
 
-Install Docker Engine **in Ubuntu VM** using method describe in
-[Docker's official documentation](https://docs.docker.com/engine/install/ubuntu/).
+Install Docker Engine **on Ubuntu** using method
+describe in [Docker's official documentation](https://docs.docker.com/engine/install/ubuntu/).
 
 ![bg right:30%](images/09-glitch_face.jpg)
 
@@ -65,7 +63,6 @@ Clarify and remind students about required software setup for the course
 - Describe three ways virtualisation can improve reliability
 - Explain the main difference between HW-level and OS-level virtualisation 
 - Explain why virtualisation can have a negative impact on performance
-- Describe why network/shared storage is most often used for storing virtual disks of VMs
   
 **[courses+virt\_010901@%EMAIL_DOMAIN%](mailto:courses+virt_010901@%EMAIL_DOMAIN%)**
 

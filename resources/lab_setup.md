@@ -18,7 +18,7 @@ assistance from the course teacher(s).
 This step is only required if the student is not running Ubuntu 24.04 on their physical machine.  
   
 Navigate to the [official Ubuntu Server download web page](https://ubuntu.com/download/server)
-and select "Download 22.04.1 LTS". This should trigger the download of an ISO formatted
+and select "Download 24.04.1 LTS". This should trigger the download of an ISO formatted
 installation image ("ubuntu-24.04.1-live-server-amd64.iso").
 
 

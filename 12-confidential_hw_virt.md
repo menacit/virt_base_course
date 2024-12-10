@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Confidential computing"
@@ -187,9 +187,9 @@ some of these vulnerabilities/attacks...
 <!-- _footer: "%ATTRIBUTION_PREFIX% Lydur Skulason (CC BY 2.0)" -->
 ## "Full guest isolation"
 - Hardware and software features to prevent host from messing with guests
-- Guests verify runtime environment before starting/decrypting data
+- Owner of guests verify runtime environment before starting/decrypting data
 - Intel tries to solve this with [TDX](https://intel.github.io/ccc-linux-guest-hardening-docs/)
-- AMD [SEV-ES](https://developer.amd.com/sev/) is another solution
+- AMD [SEV-SNP](https://developer.amd.com/sev/) is another solution
 
 ![bg right:30%](images/12-snow_dome.jpg)
 
@@ -215,7 +215,7 @@ Segue: This sounds wonderful and almost to good to be true...
 - Still early days, lacking support in virtualisation software stack
 - Current state of verified boot is quite bad, especially in Linux distributions
 - Requires trust in a proprietary black box
-- Several vulnerabilities have been identified
+- Several vulnerabilities have been identified, breaking the promise
 
 ![bg right:30%](images/12-broken_cpu.jpg)
 
@@ -241,6 +241,9 @@ Segue: So, should we just give up on these technologies?
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Graham Drew (CC BY 2.0)" -->
 Mayhaps a good complement to minimize risk, if understood properly.
+
+If you find this interesting,
+checkout [Joel's talk from SEC-T](https://youtu.be/vdj9Pr-6dq8).
 
 ![bg right:30%](images/12-sinking_boat.jpg)
 
