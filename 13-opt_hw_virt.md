@@ -39,9 +39,15 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Thierry Ehrmann (CC BY 2.0)" -->
 ## CPU assisted virtualisation
-Allow guests to access parts of CPU, RAM and PCI bus without going through virtualiser.  
+Allow guests to access parts of
+CPU, RAM and PCI bus without going
+through virtualisation software.  
+
+Requires support from hardware,
+like Intel VT-(x|d) and AMD-V features.
   
-May require use of feature masking for migration and security.
+May require use of "feature masking"
+for live migration and security.
 
 ![bg right:30%](images/13-wheel.jpg)
 
@@ -67,7 +73,7 @@ Let's not pretend that guests are running on real hardware.
   
 Virtual devices don't necessarily need to act like physical HW and can be much more efficient.  
   
-Virtio offers standardised virtual devices
+VIRTIO offers standardised virtual devices
 such as NICs, block devices ("disk drives"),
 sockets and sound cards.
 
@@ -99,6 +105,8 @@ overprovisioning of RAM in guests.
 ![bg right:30%](images/13-cow.jpg)
 
 <!--
+- These techniques don't improve performance, but the minimizes the overhead cost
+
 - Deduplication == Only store one piece of data ones, for memory/RAM pages and for disks blocks
 
 - If a hypervisor is running 100s of Windows VMs, chances are that a lot of storage space can be

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Qubes OS showcase"
@@ -65,7 +65,7 @@ Segue: Things look a bit more interesting with applications running...
 - Most important is to make note of the border color of the windows (red, grey, yellow and blue),
 these let us know which "qube" (their terminology for a VM) the application is running in
 
-- Each qube acts as a bit of a security boundry: The video player running in the "personal" qube
+- Each qube acts as a of a security boundry: The video player running in the "personal" qube
 can't access files or processes running in the "work" qube
 
 - The same is true for the "vault" cube which is provided to store very sensitive information in,
@@ -217,7 +217,7 @@ Z, which prevents qubes from moving around data without the user noticing
 - Sure, there are likely use-cases where you want VMs to access to them, but not all of them and
 not all the time
 
-- You probably want your work qube to access the webcam and microphone for meetings
+- You probably want your work qube (or disposable) to access the webcam and microphone for meetings
 -->
 
 ---
@@ -316,7 +316,7 @@ can be done with CLI tools
 - Quite a lot of overhead
 - No 3D acceleration
 - Lots to manage and keep updated
-- Lacking support for new HW
+- Lacking support for newest HW
 
 ![bg right:30%](images/11-malachite.jpg)
 
@@ -349,7 +349,6 @@ still a lot of things to learn and adopt from Qubes' design....
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Mathias Appel (CC0 1.0)" -->
 ## Get inspired
-- Take a look at [Bromium/HP Wolf Security](https://www.bromium.com/)
 - Use VM and snapshots for risky things
 - Setup a router VM to force traffic through VPN
 - Separate VM per customer/project for easy cleanup and leak prevention
@@ -357,9 +356,6 @@ still a lot of things to learn and adopt from Qubes' design....
 ![bg right:30%](images/11-red_panda.jpg)
 
 <!--
-- Bromium is a solution that tries to introduce micro-virtualisation for applications on Windows.
-They got bought by HP a few years ago and they may have ruined it, but could be worth checking out
-
 - Even if you don't use Qubes you can still have a snapshot'ed VM that can be considered disposable
 
 - Why not do your web browsing in a VM that can be nuked and paved every day?

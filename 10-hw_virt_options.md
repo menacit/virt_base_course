@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Options for HW-level virtualisation"
@@ -35,7 +35,9 @@ style: |
 <!--
 - So far everything we've covered applies more or less to both HW-level and OS-level virtualisation
 
-- We've been quite soft and general, this section will be more technical
+- Look at a few solutions and their fit on the market
+
+- We've been quite soft and general, this section will be slightly more technical
 
 - Remind students to ask questions if things are unclear
 -->
@@ -60,13 +62,15 @@ style: |
 - Decent choice for SMBs with limited IT staff and high availability requirements
 
 - "No one ever got fired for buying VMware"
+
+- Owned by Broadcom, getting more expensive
 -->
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Daniel Oliva Barbero (CC BY 2.0)" -->
 ## Hyper-V
 - Window's native virtualisation technology
-- Used internally by Windows features like "WSL v2" and "VBS"
+- Also used for "Windows Subsystem for Linux v2" and "Virtualization-based Security" features 
 - Somewhat messy licensing
 
 ![bg right:30%](images/10-vapor_windows.jpg)
@@ -145,7 +149,7 @@ Segue: Let's break these components down and see what purpose they serve
 ## QEMU
 - Swiss army knife of emulation
 - Emulates BIOS/UEFI and devices
-- Security was not the highest priority
+- Designed with flexibility in mind, not security
 
 ![bg right:30%](images/10-mountains.jpg)
 
@@ -210,6 +214,8 @@ data corruption detection among other things
 - Supports many of the same clustering features as VMware ESXI, but not nearly as polished
 
 - Great for a similar usecases as ESXI, also for home labs - it's FOSS!
+
+- https://www.proxmox.com/en/proxmox-virtual-environment/overview
 -->
 
 ---
@@ -236,6 +242,8 @@ AMD, Microsoft, ByteDance (developers of Tiktok) and Alibaba (probably largest n
 
 - Uses KVM on Linux to make things fast!
 
+- Coded in Rust, QEMU is written in C. Preferable for safety 
+
 - Will likely be a reasonable replacement for libvirt + QEMU for most users soon
 
 Segue: Another user of KVM is Firecracker
@@ -244,8 +252,8 @@ Segue: Another user of KVM is Firecracker
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## Firecracker
-- [Developed by AWS](https://firecracker-microvm.github.io/#faq)
-- Runs performant "microVMs"
+- Originally developed by [AWS](https://firecracker-microvm.github.io/#faq)
+- Runs secure and performant "microVMs"
 - Not designed for general purpose hosting
 - Shares code with Cloud Hypervisor
 
@@ -254,7 +262,7 @@ Segue: Another user of KVM is Firecracker
 <!--
 - Firecracker isn't built to run general purpose server operating systems/workloads
 
-- Initially developed for Amazon's FaaS Lambda
+- Initially developed for Amazon's FaaS Lambda, later Fargate
 
 - Wanted the speed and low overhead of OS-level virtualisation but security of HW-level
 
@@ -268,7 +276,8 @@ projects share code, resulting in that they make each other better
 ## Xen
 - Pioneering solution for para-virtualisation
 - Performant "bare metal" hypervisor
-- Relatively small [TCB](https://en.wikipedia.org/wiki/Trusted_computing_base)
+- Enables small [**T**rusted **C**omputing **B**ase](https://en.wikipedia.org/wiki/Trusted_computing_base)
+- [XCP-ng](https://xcp-ng.org/) provides a ESXi-/Proxmox-like experience
 
 ![bg right:30%](images/10-panda.jpg)
 
@@ -297,7 +306,8 @@ Segue: Xen has an interesting design and is quite different from QEMU + KVM....
 ## Xen
 - Pioneering solution for para-virtualisation
 - Performant "bare metal" hypervisor
-- Relatively small [TCB](https://en.wikipedia.org/wiki/Trusted_computing_base)
+- Enables small [**T**rusted **C**omputing **B**ase](https://en.wikipedia.org/wiki/Trusted_computing_base)
+- [XCP-ng](https://xcp-ng.org/) provides a ESXi-/Proxmox-like experience
 
 ![bg right:30%](images/10-panda.jpg)
 
@@ -313,7 +323,18 @@ full control of all software running on the machine
 manager is delegated to dom0 (the privileged VM used to manage the system and other VMs), Xen has
 a relatively small TCB
 
-- If you wanna try it out, the easiest way is probably to install XCP-NG (https://xcp-ng.org/)
+- If you wanna try it out, the easiest way is probably to install XCP-ng (https://xcp-ng.org/)
 
 Segue: Due to these properties, Xen was chosen as the virtualisation technology for Qubes OS...
 -->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% ETC Project (CC0 1.0)" -->
+There are many more solutions available
+for hardware-level virtualisation -
+all with their own pros/cons.  
+
+This was just an appetizer to make
+you familar with the most common ones!
+
+![bg right:30%](images/10-computer_man.jpg)

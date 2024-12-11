@@ -30,7 +30,7 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% John Regan (CC BY 2.0)" -->
-Covered what virtualisation is and it's benefits.  
+Covered what virtualisation is and its benefits.  
   
 Built foundation for further understanding of technologies available on the market.
 
