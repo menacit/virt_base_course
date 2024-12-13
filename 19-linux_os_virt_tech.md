@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation technology"
@@ -46,6 +46,8 @@ There is no such thing as a OS-level VM in the Linux kernel.
 Gluing together features like _chroot_, _namespaces_ and _cgroup_ creates the illusion.  
   
 This functionality has other neat use-cases besides virtualisation.
+
+No worries if you don't grok all of this!
 
 ![bg right:30%](images/19-abandoned_house.jpg)
 

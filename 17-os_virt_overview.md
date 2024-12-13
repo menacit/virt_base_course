@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation overview"
@@ -59,7 +59,7 @@ Segue: To further complicate things, we can create sub-groups of OS-level virt..
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 Pretend to be another OS  
-_or_  
+_and/or_  
 Create an isolated environment
 
 ![bg right:30%](images/17-galley_carts.jpg)
@@ -97,7 +97,7 @@ games like Counter-Strike) got involved to make software run on Steam deck
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 Pretend to be another OS  
-_or_  
+_and/or_  
 **Create an isolated environment**
 
 ![bg right:30%](images/17-galley_carts.jpg)

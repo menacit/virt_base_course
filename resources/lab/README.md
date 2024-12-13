@@ -40,30 +40,42 @@ In order to complete the lab, the student should package the application depende
 using [HashiCorp Vagrant](https://www.vagrantup.com/) and/or
 [Docker Compose](https://docs.docker.com/compose/).
 
-All tools required to complete the assignment should be pre-installed on the student's lab system. 
-The "mixologyfy.py" script may not be modified during process.
+All tools required to complete the assignment should be pre-installed on the student's lab system,
+granted that it has been configured in accordance with instructions documented in the file
+"resources/lab_setup.md".
+  
+The "mixologyfy.py" script may **not** be modified during the lab completion process.
 
 
 ## Tasks
 
-### Mandatory - Executed on host ("G")
+### Mandatory ("G")
+The following tasks should be executed on the student's physical machine:
 - Create/Initialize a Vagrantfile that uses the official AlmaLinux version 9 box
 - Utilize a synced folder in Vagrant to share "app-src" directory with guest at the path "/app"
 - Utilize a Vagrant provisioner to automatically install the lab application dependencies:
   - ["FIGlet" executable/package](http://www.figlet.org/)
-  - Python 3 libraries/modules: Flask v3.0.0, psycopg v3.1.16 and requests v2.29.0
+  - Python 3 libraries/modules and their dependencies:
+    - Flask version 2 or later
+    - psycopg version 3 or later
+    - requests version 2 or later
 
 - Utilize a Vagrant forwarded port to expose port 1338/TCP in guest on host port 1337/TCP
 - Verify that setup works as intended by executing the following validation steps:
   - Execute "vagrant ssh -c 'python3 /app/mixologyfy.py' " on the host to start the lab application
   - Open a web browser on the host and access the lab web application at "http://localhost:1337/"
-  - Modify the HTML template file ("app-src/index.html.jinja") on the host system
+  - Modify something in the HTML template file ("app-src/index.html.jinja") via the host system
   - Refresh the lab web application in the host web browser and observe the template modification
 
-### Meritorious - Executed in Ubuntu VM ("VG")
+
+### Meritorious ("VG")
+The following tasks should be executed in the student's Ubuntu environment (physical or virtual):
 - Create Dockerfile based on Alpine Linux version 3.19 for lab application and its dependencies:
   - ["FIGlet" executable/package](http://www.figlet.org/)
-  - Python 3 libraries/modules: Flask v3.0.0, psycopg v3.1.16 and requests v2.29.0
+  - Python 3 libraries/modules and their dependencies:
+    - Flask version 3.0.0
+    - psycopg version 3.1.16
+    - requests version 2.29.0
 
 - Build image from the Dockerfile and execute the container using "docker run" command:
   - Utilize the "publish" feature to expose guest port 1338/TCP to port 1339/TCP on the Ubuntu VM
@@ -73,12 +85,12 @@ The "mixologyfy.py" script may not be modified during process.
   - Utilize the "ports" feature to expose guest port 1338/TCP to port 1339/TCP on the Ubuntu VM
   - Add secondary container/service running PostgreSQL version 15.5 to serve as a database
   - Utilize a "volume" to ensure that database data is stored persistently
-  - Configure lab application container to utilize the PostgreSQL database
+  - Configure lab application to utilize the PostgreSQL database using environment variables
   - Utilize health checks and "depends\_on" to define startup order of containers/services
 
 - Verify that setup works as intended by executing the following validation steps:
   - Execute "docker compose up --build" command on the Ubuntu VM to start the lab application
-  - Open a web browser on the host and access the lab application at "http://<UBUNTU_VM_IP>:1339/"
+  - Open a web browser on the host and access the lab application at "http://<UBUNTU\_IP>:1339/"
   - Add a drink recipe to favorites by clicking an "Add to favorites!" link
   - Ensure that "Number of favorites" on web page has been incremented by one
   
@@ -86,16 +98,20 @@ The "mixologyfy.py" script may not be modified during process.
 ### Bonus (just for fun!)
 - Utilize the "secrets" feature to avoid storing clear-text credentials in the Docker Compose file
 - Add additional service/container to Compose file that performs recurring backups of database
+- Publish/Share a modified version of the application as a container on a remote image repository
 
 
 ## Lab report/documentation
 Each student should submit a lab report containing **at least** the following information ("G"):
 - Documentation of how each task was performed, including reasoning behind solution
-- Screenshot proof of lab web application running in web browser on host system
+- Screenshots as proof of lab web application being accessible from web browser on the host system
+  - "**G**": Before applying modifications to HTML template file 
+  - "**G**": After applying modifications to HTML template file
+  - "**VG**": Usage of the "Add to favorites!" functionality  
   
 The lab report should be provided as a plain text file (".txt"), Markdown document or PDF file.
-In addition to the report, all lab files that have been changed (scripts, configuration sets,
-screenshots, etc.) should be provided as a ZIP or GZIP archive.  
+In addition to the report, all lab files that have been changed/created (configuration sets,
+Dockerfiles, scripts, screenshots, etc.) should be provided as a ZIP or GZIP archive.  
   
 Upload lab report and archive of changed files to
 %REPORT_TARGET%.
@@ -113,6 +129,16 @@ and send the relevant output/error messages.
 Before starting with the lab tasks, the student should ensure their computer ("the lab system") has
 been setup and configured properly. The file "resources/lab\_setup.md" included in the course
 resource archive describes the configuration prerequisites and steps to validate them.
+
+
+### Application sources and repositories
+Not all applications and libraries are available for instant installation using a Linux
+distribution's standard repositories/package management tools. Even if available, specific
+required versions may not be.
+
+Third-party/Non-standard sources like [EPEL](https://wiki.almalinux.org/repos/Extras.html),
+[FlatHub](https://flathub.org/) and programming language-specific package repositories like
+["PyPi" for Python](https://pypi.org/) are commonly used to install software dependencies.
 
 
 ### Enabling application debug logging
@@ -223,8 +249,16 @@ Ensure that the correct hostname is used (matching the application container's n
 database connection URI setting.
 
 
+### Asking for assistance
+In order to minimize repeated answers to recurring questions, several common issues are brought up
+in the lab description (this README file). The teacher should also update the guidance section of
+the lab description if such need arises during the course. Before requesting help/guidance from the
+course leader, the student should utter the secret passphrase "Black ICE".
+
+
 ### Links
 - [Wikipedia: "Environment variables"](https://en.wikipedia.org/wiki/Environment_variable)
+- [G4G: Environment variables](https://www.geeksforgeeks.org/environment-variables-in-linux-unix/)
 - [AlmaLinux Wiki: "Extra repositories"](https://wiki.almalinux.org/repos/Extras.html)
 - [Vagrant CLI documentation](https://developer.hashicorp.com/vagrant/docs/cli)
 - [Vagrant boxes repository](https://app.vagrantup.com/boxes/search)
@@ -239,6 +273,7 @@ database connection URI setting.
 - ["Compose" file V3 reference](https://docs.docker.com/compose/compose-file/compose-file-v3/)
 - ["Compose": "depends\_on"](https://docs.docker.com/compose/compose-file/05-services/#depends_on)
 - ["Compose": Health checks](https://docs.docker.com/compose/compose-file/05-services/#healthcheck) 
+- ["Compose": Secrets](https://docs.docker.com/reference/compose-file/secrets/)
 - [PostgreSQL image on Docker Hub](https://hub.docker.com/_/postgres/)
 - [PGSQL connection URIs](https://www.prisma.io/dataguide/postgresql/short-guides/connection-uris)
 - ["pg\_isready" documentation](https://www.postgresql.org/docs/current/app-pg-isready.html)

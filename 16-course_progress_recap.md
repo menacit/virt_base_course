@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Course progress recap"
@@ -30,9 +30,11 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kuhnmi (CC BY 2.0)" -->
-Covered what virtualisation is and it's benefits.  
+Covered what virtualisation is
+and its pros/cons.  
   
-Talked about HW-level virtualisation and it's pros/cons.
+Talked about HW-level virtualisation
+and some of the solutions available..
 
 ![bg right:30%](images/16-hummingbird.jpg)
 
@@ -52,7 +54,7 @@ run on it like it would on real HW
 - ~~Hardware-level virtualisation~~
 - OS-level virtualisation
 - Virtualised development and containers
-- Labs
+- Lab
 - Course recap and summary
 
 ![bg right:30%](images/16-jellyfish.jpg)
@@ -121,75 +123,10 @@ hypervisors more or less independently to mitigate the risks. It's not an inheri
 -->
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
-"Pizza box" is slang for rack server.  
-  
-Physical servers require time, money and energy to get/keep up and running.  
-  
-Most software vendors don't want to manage physical appliances.
-
-![bg right:30%](images/16-server_rack.jpg)
-
-<!--
-- I've used the term "pizza boxes" several times, not all may know what it is
-
-- Not everyone may have even seen a rack server (or a DC for that matter, is there interest?)
-
-- The image shows the back-side of a rack with several of them stacked in it
-
-Segue: Let's take a closer look
--->
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Robert Jemimus (CC BY 2.0)" -->
-
-![bg center:100%](images/16-exposed_server-1.jpg)
-
-<!--
-- Close-up of rack server/pizza box with lid off 
--->
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Robert Jemimus (CC BY 2.0)" -->
-
-![bg center:100%](images/16-exposed_server-2.jpg)
-
-<!--
-- Close-up of mounted and extended rack server with lid open
--->
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% OLCF at ORNL (CC BY 2.0)" -->
-"Pizza box" is slang for rack server.  
-  
-Physical servers require time, money and energy to get/keep up and running.  
-  
-Most software vendors don't want to manage physical appliances.
-
-![bg right:30%](images/16-server_rack.jpg)
-
-<!--
-- As we talked about, physical things break - debugging these issues and dealing with RMA is no fun
-
-- Physical servers also makes it harder to move fast, as everything requires more planning, people
-and effort
-
-- Software vendors prefer to not trust customers to setup their complex stacks. Appliances solve
-this problem as the vendor can deliver a more or less configured server to the customer. These used
-to be physical servers, but these days they are mostly virtual appliances due to the effort
-required in maintaining physical HW
-
-- Revisit the presentations "Economic benefits" and "Reliability benefits" for more info
-
-Segue: Another thing that was brought up in the "Reliability benefits" presentation was why three
-is a magic number - that could use some clarification...
--->
-
----
 <!-- _footer: "%ATTRIBUTION_PREFIX% Andrew Hart (CC BY-SA 2.0)" -->
 Qubes OS is neat, but requires decent hardware.  
 
-\>10GB RAM, Intel VT-x/AMD-V
+\>16GB RAM, Intel VT-x/AMD-V
 and Intel VT-d/AMD-Vi.  
 
 Checkout the ["hardware compatibility list"](https://www.qubes-os.org/hcl/).  
@@ -228,9 +165,11 @@ Segue: On the topic of performance, there may be need to clarify some terms comm
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Ribeiro Simões (CC BY 2.0)" -->
-Vertical scaling == Add/Remove CPU, RAM, etc.  
+## Vertical scaling
+Add/Remove CPU, RAM, etc.  
   
-Horizontal scaling == Add/Remove VM instances.
+## Horizontal scaling
+Increase/Decrease number of VM instances.
 
 ![bg right:30%](images/16-sculpture.jpg)
 
