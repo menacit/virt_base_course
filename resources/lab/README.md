@@ -70,7 +70,7 @@ The following tasks should be executed on the student's physical machine:
 
 ### Meritorious ("VG")
 The following tasks should be executed in the student's Ubuntu environment (physical or virtual):
-- Create Dockerfile based on Alpine Linux version 3.19 for lab application and its dependencies:
+- Create Dockerfile based on Alpine Linux version 3.21.0 for lab application and its dependencies:
   - ["FIGlet" executable/package](http://www.figlet.org/)
   - Python 3 libraries/modules and their dependencies:
     - Flask version 3.0.0
