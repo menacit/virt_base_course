@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Vagrant demo"
@@ -28,14 +28,46 @@ style: |
 ![bg right:30%](images/23-retro_space.jpg)
 
 ---
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA/JPL-Caltech (CC BY 2.0)" -->
+## What is HashiCorp Vagrant?
+Software for automating the process of
+setting up test/development environments
+using virtual machines.
+
+Released back in 2010
+by Mitchell Hashimoto.
+
+![bg right:30%](images/23-retro_space.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% NASA/JPL-Caltech (CC BY 2.0)" -->
+## How does it work?
+Instructions for how a VM should be
+configured are defined as code in
+shareable "Vagrantfiles". 
+
+"Boxes" are pre-configured OS images
+that can be uploaded/downloaded from
+a remote repository, like "Vagrant Cloud".
+
+Relies on a "provider", like VirtualBox
+or VMware Fusion, for the heavy lifting.
+
+![bg right:30%](images/23-retro_space.jpg)
+
+---
 ```ruby
 $ cat Vagrantfile 
 
 Vagrant.configure("2") do |config|
+  # Pre-built OS image used as base for guest
+  # downloaded from a remote registry
   config.vm.box = "ubuntu/bionic64"
 
-  config.vm.synced_folder ".", "/vagrant_data"
+  # Directory shared between host and guest
+  config.vm.synced_folder "./code", "/vagrant_data"
 
+  # Commands to run after spawning guest
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y python3 python3-pip
@@ -80,7 +112,15 @@ $ vagrant destroy --force
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Fritzchens Fritz (CC0 1.0)" -->
+## Other neat things
+Multiple VMs can be configured and
+launched using a single Vagrantfile.  
 
-For production VMs, try [HashiCorp Packer](https://developer.hashicorp.com/packer).
+"Vagrant Share" plugin enables you
+to easily provide remote access
+to a guest for collaboration.
+
+For building production OS images,
+try [HashiCorp Packer](https://developer.hashicorp.com/packer).
 
 ![bg right:30%](images/23-negative.jpg)

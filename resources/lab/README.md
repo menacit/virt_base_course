@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 X-Context: Virtualisation course - Lab
 -->
@@ -52,6 +52,7 @@ The "mixologyfy.py" script may **not** be modified during the lab completion pro
 ### Mandatory ("G")
 The following tasks should be executed on the student's physical machine:
 - Create/Initialize a Vagrantfile that uses the official AlmaLinux version 9 box
+- Utilize VM provider configuration to provide 2 GB of memory/RAM and 2 CPU cores to the guest
 - Utilize a synced folder in Vagrant to share "app-src" directory with guest at the path "/app"
 - Utilize a Vagrant provisioner to automatically install the lab application dependencies:
   - ["FIGlet" executable/package](http://www.figlet.org/)
@@ -64,13 +65,13 @@ The following tasks should be executed on the student's physical machine:
 - Verify that setup works as intended by executing the following validation steps:
   - Execute "vagrant ssh -c 'python3 /app/mixologyfy.py' " on the host to start the lab application
   - Open a web browser on the host and access the lab web application at "http://localhost:1337/"
-  - Modify something in the HTML template file ("app-src/index.html.jinja") via the host system
+  - Modify something visual in the HTML template ("app-src/index.html.jinja") via the host system
   - Refresh the lab web application in the host web browser and observe the template modification
 
 
 ### Meritorious ("VG")
 The following tasks should be executed in the student's Ubuntu environment (physical or virtual):
-- Create Dockerfile based on Alpine Linux version 3.19 for lab application and its dependencies:
+- Create Dockerfile based on Alpine Linux version 3.20.3 for lab application and its dependencies:
   - ["FIGlet" executable/package](http://www.figlet.org/)
   - Python 3 libraries/modules and their dependencies:
     - Flask version 3.0.0
@@ -80,7 +81,7 @@ The following tasks should be executed in the student's Ubuntu environment (phys
 - Build image from the Dockerfile and execute the container using "docker run" command:
   - Utilize the "publish" feature to expose guest port 1338/TCP to port 1339/TCP on the Ubuntu VM
 
-- Create a Docker Compose file (version 3.8) to setup lab application and associated database:
+- Create a Docker Compose file to setup lab application and associated database:
   - Utilize "build" feature to automatically build image using Dockerfile for lab application
   - Utilize the "ports" feature to expose guest port 1338/TCP to port 1339/TCP on the Ubuntu VM
   - Add secondary container/service running PostgreSQL version 15.5 to serve as a database
@@ -89,7 +90,7 @@ The following tasks should be executed in the student's Ubuntu environment (phys
   - Utilize health checks and "depends\_on" to define startup order of containers/services
 
 - Verify that setup works as intended by executing the following validation steps:
-  - Execute "docker compose up --build" command on the Ubuntu VM to start the lab application
+  - Execute "docker compose up --build" command in the Ubuntu environment to start the application
   - Open a web browser on the host and access the lab application at "http://<UBUNTU\_IP>:1339/"
   - Add a drink recipe to favorites by clicking an "Add to favorites!" link
   - Ensure that "Number of favorites" on web page has been incremented by one
@@ -110,8 +111,9 @@ Each student should submit a lab report containing **at least** the following in
   - "**VG**": Usage of the "Add to favorites!" functionality  
   
 The lab report should be provided as a plain text file (".txt"), Markdown document or PDF file.
-In addition to the report, all lab files that have been changed/created (configuration sets,
-Dockerfiles, scripts, screenshots, etc.) should be provided as a ZIP or GZIP archive.  
+In addition to the report, all lab files that have been changed/created by the student 
+(configuration sets, Dockerfiles, scripts, screenshots, etc.) should be provided as a ZIP or GZIP
+archive.  
   
 Upload lab report and archive of changed files to
 %REPORT_TARGET%.
@@ -129,6 +131,14 @@ and send the relevant output/error messages.
 Before starting with the lab tasks, the student should ensure their computer ("the lab system") has
 been setup and configured properly. The file "resources/lab\_setup.md" included in the course
 resource archive describes the configuration prerequisites and steps to validate them.
+
+
+### Manual validation before automation
+Before automating installation/configuration of software using Vagrant provisioners or statements
+in a Dockerfile, a good rule of thumb is to first attempt a manual installation in order to
+identify all steps required to successfully setup the application. Certain applications, like
+software package management tools, may require additional command-line arguments to operate
+without user interaction and thereby be automatable.
 
 
 ### Application sources and repositories
@@ -262,6 +272,8 @@ course leader, the student should utter the secret passphrase "Black ICE".
 - [AlmaLinux Wiki: "Extra repositories"](https://wiki.almalinux.org/repos/Extras.html)
 - [Vagrant CLI documentation](https://developer.hashicorp.com/vagrant/docs/cli)
 - [Vagrant boxes repository](https://app.vagrantup.com/boxes/search)
+- [Vagrant "VirtualBox" provider configuration](https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration)
+- [Ostechnix: Increase memory and CPU on Vagrant](https://ostechnix.com/how-to-increase-memory-and-cpu-on-vagrant-machine/)
 - [Vagrant "shell" provisioner](https://developer.hashicorp.com/vagrant/docs/provisioning/shell)
 - [Vagrant provider usage](https://developer.hashicorp.com/vagrant/docs/providers/basic_usage)
 - [Vagrant "synced\_folders" feature](https://developer.hashicorp.com/vagrant/docs/synced-folders)

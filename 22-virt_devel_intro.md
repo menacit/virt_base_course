@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Introduction to virtual development"
@@ -36,7 +36,11 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
-**In theory, collaborative development of software shouldn't be that hard.**
+In theory, collaborative development and
+testing of software shouldn't be that hard.  
+
+We got interpreted languages and
+great tools like GitHub to help us.
 
 ![bg right:30%](images/22-bees.jpg)
 
@@ -74,11 +78,14 @@ $ curl http://localhost:5000/api/request_info | jq
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Scott Skippy (CC BY-SA 2.0)" -->
-What dependencies (and versions) are installed on developers workstations?  
+What dependencies (and versions) are
+installed on developers' workstations?  
   
-How about in the different server environments?  
+How about in the different server environments,
+such as staging and production?
   
-Who should deploy and manage the stack? (application, load balancer, databases, etc.)
+What about other components in the stack?
+(OS, load balancer, databases, etc.)
 
 ![bg right:30%](images/22-dice.jpg)
 
@@ -91,17 +98,17 @@ Flask==2.0.3
 ```
 
 ```
-$ python3 -m venv .
-$ ls
+$ python3 -m venv my_env
+$ ls my_env
 
 bin include lib64 lib app.py
 pyvenv.cfg requirements.txt
 
-$ bin/pip install -r requirements.txt
+$ my_env/bin/pip install -r requirements.txt
 
 Successfully installed Flask-2.0.3
 
-$ bin/flask run
+$ my_env/bin/flask run
 
 * Environment: production
 * Running on http://127.0.0.1:5000
@@ -114,6 +121,16 @@ $ bin/flask run
 ## Some problems
 - Sharing venv's is not trivial
 - Only handles Python dependencies\*
+- Code may not behave exactly the same on all operating systems
 - Doesn't describe how stack should be run
 
 ![bg right:30%](images/22-albatross.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
+Is all doom and gloom?  
+
+Let's explore some tools that tries
+to help us with these challenges!
+
+![bg right:30%](images/22-abandoned_office.jpg)

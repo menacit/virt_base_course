@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Container cons"
@@ -32,8 +32,23 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
 ## Containers make it easy to...
-- Not understand what you are running
-- Use software packaged by dubious people
-- Forget updating things
+
+![bg right:30%](images/27-cd_macro.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+Not understand what you are running.
+
+![bg right:30%](images/27-cd_macro.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+Use software packaged by dubious people.
+
+![bg right:30%](images/27-cd_macro.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+Forget to update/patch things.
 
 ![bg right:30%](images/27-cd_macro.jpg)
