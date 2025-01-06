@@ -189,10 +189,37 @@ $ cat Vagrantfile
 When a Vagrant guest is first created (after execution of "vagrant up" command), any configured
 provisioners (such as "shell") are executed. This process only happens during the initial boot.
 If the Vagrantfile has been changed since its initial startup, it may be desirable to run the
-following command to reload its configuration and forcefully execute provisioners:
+following command to forcefully execute provisioners:
+
+```
+$ vagrant provision
+```
+
+If "hardware configuration" has been changed, like number of virtual CPUs, memory allocation or
+share directories, it may be necessary to utilize the "reload" sub-command instead:
 
 ```
 $ vagrant reload --provision
+```
+
+
+### Issues with Vagrant shared folders
+Vagrant provides a feature to share a directory between the host and guest operating systems,
+which enables two-way access/modification of files. When using VirtualBox as a Vagrant provider,
+shared folder functionality is provided by the "VirtualBox Guest Additions" software/kernel module
+which is typically pre-installed in all downloaded Vagrant boxes ("OS images").  
+
+Students may encounter error messages containing "Vagrant was unable to mount VirtualBox shared
+folder" or "/sbin/mount.vboxsf: mounting failed with the error" after rebooting/reloading a guest
+created with Vagrant. This typically occurs when the guest operating system kernel has been updated
+without rebuilding guest additional kernel module, which disables the functionality.  
+
+To avoid the issue, refrain from upgrading the system kernel package ("dnf update" or similar).
+Alternatively, issue the following commands to rebuild the required module **after** a new kernel
+version has been installed on the system:
+
+```
+$ sudo dnf install -y kernel-devel && sudo rcvboxadd quicksetup all
 ```
 
 

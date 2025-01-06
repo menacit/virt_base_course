@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: VDI"
@@ -141,6 +141,9 @@ Low-cost devices with a NIC, display output and basic I/O. No internal storage.
 Minimum local compute resources.  
    
 Typically shared between multiple users.
+
+Connects to appropriate virtual desktop
+based on user\+password, smart card, etc.
 
 ![bg right:30%](images/31-thin_client.jpg)
 

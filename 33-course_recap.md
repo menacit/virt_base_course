@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Recap"
@@ -53,11 +53,11 @@ and VDI. After presentation, send slides to
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Yves Sorge (CC BY-SA 2.0)" -->
 ## Org. 1: Examplify
-Cash strapped startup on a mission to make developers (and stockholders) happy.  
+Cash strapped startup on a mission to make customers (and stockholders) happy.  
   
-Develops, hosts and supports a solution for collaborative coding.  
+Develops, hosts and supports web pages/apps for (temporary) PR campaigns.  
   
-Needs to grow fast and has employees all over the world working from home.  
+Needs to grow/shrink fast and has employees all over the world working from home.  
   
 **Focus on the economic pros/cons.**
 
@@ -151,8 +151,22 @@ Enables quick recovery to a good known state.
 <!-- _footer: "%ATTRIBUTION_PREFIX% Nacho Jorganes (CC BY-SA 2.0)" -->
 ## Environmental benefits
 Less HW == less e-waste and energy consumption.  
+  
+Power up/down hypervisors depending on load.  
+  
+Migrate workloads to regions with green electricity.
 
 ![bg right:30%](images/33-cow.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Mauricio Snap (CC BY 2.0)" -->
+## HW-level virtualisation
+Pretend to be hardware well enough to make operating systems run.
+
+## OS-level virtualisation
+Pretend to be an (isolated) operating system environment well enough to run applications.
+
+![bg right:30%](images/33-eye.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
@@ -171,6 +185,38 @@ Less HW == less e-waste and energy consumption.
 - Barley supported live-migration
 
 ![bg right:30%](images/33-pcb_macro.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+## Development tools
+Virtualisation helps developers and users
+by providing predictable execution environments
+for applications.
+
+Vagrant can be used for automated setup of
+test environments on any OS using
+HW-level virtualisation.
+
+Docker can be used for packaging and
+running (Linux) apps using
+OS-level virtualisation.
+
+![bg right:30%](images/33-welding.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+The main downside with virtualisation
+is decreased performance ("overhead"),
+especially for HW-level.  
+
+Para-virtualisation features,
+like Intel VT-x and Virtio devices,
+can minimize this problem.  
+  
+Increased technical complexity
+is another challenge.
+
+![bg right:30%](images/33-hdd_macro.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Bret Bernhoft (CC0 1.0)" -->

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2022 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Docker revisited"
@@ -332,25 +332,19 @@ $ docker run \
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kurayba (CC BY-SA 2.0)" -->
-The number of command line flags
-to our `docker run` is growing.  
+The "Docker Compose" tool enables us to
+describe how one or more containers should
+be run (environment variables, volumes, etc.).
 
-Might need other components to
-properly run our application,
-like a database or web server.  
-
-We could try to document the
-setup or write a bash script
-to start our containers.  
-
-To handle these problems,
-"Docker Compose" was created.
+Configuration defined in a text file called
+"docker-compose.yml", which can be shared
+with developers, system administrators
+and end-users.
 
 ![bg right:30%](images/30-rogers_place.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kurayba (CC BY-SA 2.0)" -->
-### nextcloud/docker-compose.yml
 ```yaml
 services:
   database:
@@ -368,8 +362,6 @@ services:
     volumes:
       - "my_nextcloud_data:/var/www/html"
     environment:
-      NEXTCLOUD_ADMIN_USER: "bob"
-      NEXTCLOUD_ADMIN_PASSWORD: "hunt_er2"
       MYSQL_HOST: "database"
       MYSQL_DATABASE: "nextcloud"
       MYSQL_USER: "nextcloud"
@@ -377,52 +369,7 @@ services:
     ports:
       - "8080:80"
 
-volumes:
-  my_db_data: {}
-  my_nextcloud_data: {}
-```
-
-![bg right:30%](images/30-rogers_place.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Kurayba (CC BY-SA 2.0)" -->
-### nextcloud/docker-compose.yml
-```yaml
-services:
-  database:
-    image: "mysql:8.2"
-    volumes:
-      - "my_db_data:/var/lib/mysql"
-    environment:
-      MYSQL_ROOT_PASSWORD: "hunt_er2"
-      MYSQL_DATABASE: "nextcloud"
-      MYSQL_USER: "nextcloud"
-      MYSQL_PASSWORD: "4pp.pass"
-
 [...]
-```
-
-![bg right:30%](images/30-rogers_place.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Kurayba (CC BY-SA 2.0)" -->
-### nextcloud/docker-compose.yml
-```yaml
-[...]
-
-  application:
-    image: "nextcloud:26.0.10"
-    volumes:
-      - "my_nextcloud_data:/var/www/html"
-    environment:
-      NEXTCLOUD_ADMIN_USER: "bob"
-      NEXTCLOUD_ADMIN_PASSWORD: "hunt_er2"
-      MYSQL_HOST: "database"
-      MYSQL_DATABASE: "nextcloud"
-      MYSQL_USER: "nextcloud"
-      MYSQL_PASSWORD: "4pp.pass"
-    ports:
-      - "8080:80"
 ```
 
 ![bg right:30%](images/30-rogers_place.jpg)
@@ -450,20 +397,5 @@ $ docker compose rm --volumes --force
  ✔ Container nextcloud-application-1  Removed
  ✔ Container nextcloud-database-1     Removed
 ```
-
-![bg right:30%](images/30-rogers_place.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Kurayba (CC BY-SA 2.0)" -->
-Options in the "docker-compose.yml" file
-can be utilized to configure secrets,
-health/ready checks, networking,
-restart behavior, etc.  
-
-[Reading The Fine Manual](https://docs.docker.com/compose/)
-is highly recommended.  
-
-For more complex orchestration needs,
-[Kubernetes](https://kubernetes.io/) is a popular alternative.
 
 ![bg right:30%](images/30-rogers_place.jpg)
