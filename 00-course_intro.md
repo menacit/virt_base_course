@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Introduction"
@@ -55,7 +55,7 @@ How and why virtualisation help the industry save money, improve uptime and secu
 ## How we will do it
 - Lectures and Q&A
 - Individual and group presentations
-- Lab exercises
+- Lab and project exercises
 - Continuous reflection
 - Quizzes and scored tests
 
@@ -72,7 +72,7 @@ How and why virtualisation help the industry save money, improve uptime and secu
 -->
 
 ---
-For notes, slides and similar, see:   
+For slides and similar, see:   
 **[%RESOURCES_DOMAIN%/virt.zip](%RESOURCES_ARCHIVE%)**.  
   
 These resources should be seen as a complement to an instructor lead course, not a replacement.
