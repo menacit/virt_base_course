@@ -96,3 +96,13 @@ needs to do
 
 - This probably break a lot of apps and make OS-level virt harder to adapt
 -->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Guilhem Vellut (CC BY 2.0)" -->
+To summarize: unless performance and efficiency
+are the top priority, HW-level virtualisation
+is likely preferable.
+
+Questions, thoughts and/or comments?
+
+![bg right:30%](images/20-mouxy_abandoned_door.jpg)

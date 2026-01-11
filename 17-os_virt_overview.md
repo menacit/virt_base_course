@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation overview"
@@ -70,9 +70,13 @@ Create an isolated environment
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
-FreeBSD's Linuxulator and Windows' WSL v1 allows execution of (many) Linux applications. 
+FreeBSD's Linuxulator and Windows' WSL v1
+allows execution of (many) Linux applications. 
   
-[Wine](https://www.winehq.org/) allows (many) Windows programs to run on Linux, \*BSD and macOS.
+[Wine](https://www.winehq.org/) allows (many) Windows programs to run on
+Linux, \*BSD and macOS.
+  
+_(Thanks for the help, Valve!)_
 
 ![bg right:30%](images/17-silo.jpg)
 
@@ -122,8 +126,9 @@ Segue: Well, there are several benefits...
 <!-- _footer: "%ATTRIBUTION_PREFIX% Freed eXplorer (CC BY 2.0)" -->
 Shared kernel saves memory and CPU cycles:
 - No HW emulation overhead
-- Concurrent usage of accelerators like GPUs
 - More efficient scheduling of processes
+- More efficient usage of caches
+- Super fast boot!
 
 **Cheaper, faster and more Greta-friendly.**
 
@@ -158,9 +163,9 @@ Segue: The one-way mirrorness has other benefits as well...
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% NASA/Chris Gunn (CC BY 2.0)" -->
-The one-way mirror allows a hypervisor to continuously monitor guests for malicious activity.  
+The "one-way mirror" makes it trivial to continuously monitor guests for malicious activity.  
   
-[Falco](https://falco.org) is a kool example.
+[Falco](https://falco.org) is a neat example.
 
 ![bg right:30%](images/17-james_webb.jpg)
 
@@ -185,10 +190,11 @@ Segue: Enough about the benefits, what are our options?
 - First commercially available solution for Linux
 - FOSSed in 2005 as ["OpenVZ"](https://openvz.org/)
 - Popular in the low-end hosting space
+- Required exciting software patches to work
 
 ## LXC
+- Developed by the community since 2008
 - Designed to [fit into mainline Linux](https://en.wikipedia.org/wiki/Linux_kernel#Mainline_Linux)
-- Development currently lead by Canonical
 - Used by ChromeOS to run regular Linux apps
 
 ![bg right:30%](images/17-spheres.jpg)
@@ -223,3 +229,13 @@ directly upstreaming) functionality in the Linux kernel (more about that later)
 
 - Canonical are the makers of Ubuntu and it's where its most tightly integrated
 -->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Brocken Inaglory (CC BY-SA 3.0)" -->
+Any questions before we
+take these tools a spin?
+
+(we'll have look at how this type of
+virtualisation actually works a bit later)
+
+![bg right:30%](images/17-yellowstone_canyon.jpg)

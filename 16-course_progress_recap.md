@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Course progress recap"
@@ -54,8 +54,8 @@ run on it like it would on real HW
 - ~~Hardware-level virtualisation~~
 - OS-level virtualisation
 - Virtualised development and containers
-- Lab
-- Course recap and summary
+- Lab project 
+- Deep dives and course summary
 
 ![bg right:30%](images/16-jellyfish.jpg)
 
@@ -65,7 +65,7 @@ run on it like it would on real HW
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
-Things are about to get more complex.  
+Things are about to get a bit more complex.  
   
 **Remember to ask questions and utilize available learning resources!**
 
@@ -102,7 +102,7 @@ continue progressing into OS-level virtualisation
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
-**In most use-cases, the security pros far outweigh the cons.**
+In most use-cases, the security pros far outweigh the cons.
 
 ![bg right:30%](images/16-locks.jpg)
 

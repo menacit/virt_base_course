@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: OS-level virtualisation technology"
@@ -41,7 +41,7 @@ the for OS-level virtualisation security.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Eric Nielsen (CC BY 2.0)" -->
-There is no such thing as a OS-level VM in the Linux kernel.  
+Unlike other operating systems, there is no such thing as a "OS-level VM" in the Linux kernel.  
   
 Gluing together features like _chroot_, _namespaces_ and _cgroup_ creates the illusion.  
   
@@ -129,6 +129,12 @@ $ sudo chroot my_debian_root /bin/bash
 
 root@node-1:/# cat /etc/os-release | grep -F PRETTY_NAME
 PRETTY_NAME="Debian GNU/Linux 10 (buster)"
+
+root@node-1:/# apt-get install fortune
+
+root@node-1:/# fortune
+All generalizations are false, including this one.
+-- Mark Twain
 ```
 
 <!--
@@ -161,6 +167,8 @@ root@node-1:/# tcpdump -i eth0
 tcpdump: listening on eth0
 [...]
 160 packets captured
+
+root@node-1:/# reboot
 ```
 
 ![bg right:30%](images/19-broken_glass.jpg)
@@ -181,7 +189,8 @@ Segue: How do we solve this? Kernel namespaces is a part of the solution...
 ## Namespaces
 "Functionality to partition a group of processes view of the system".  
   
-Host can see through all, members can't.  
+Host can see through all, members can't
+("one-way mirror").  
 
 We'll focus on "process", "network" and "user".
 
@@ -278,9 +287,11 @@ PID   TTY   TIME      CMD
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Dave Herholz (CC BY-SA 2.0)" -->
 ## Network namespace
-Separate "network stack" for members processes.  
+Separate "network stack" for members processes.
+
+Assign virtual/physical NICs to each namespace.
   
-Example use-cases:
+Unrelated example use-cases:
 - Configure per-application FW rules
 - Force cherry-picked services through a VPN
 - Handle overlapping network segments 
@@ -311,6 +322,10 @@ Lots of things such as package managers expect root privileges, but don't really
   
 User namespaces give members their own group and user lists.
 
+Processes believe that they run as root, but not from host kernels perspective.
+
+_(not used by all virtualisation tools, scary!)_
+
 ![bg right:30%](images/19-wireframe_head.jpg)
 
 <!--
@@ -332,9 +347,9 @@ Segue: Could talk about NSes, let's move on to cgroups...
 ## cgroup
 Members usage of system resources (CPU, memory, disk I/O, etc.) can be limited.  
   
-Used together with [CRIU](https://criu.org/) for live migration.  
+[Not just for virtualisation](https://www.redhat.com/sysadmin/cgroups-part-four)!
   
-[Not just used for virtualisation](https://www.redhat.com/sysadmin/cgroups-part-four).
+Used together with [CRIU](https://criu.org/) for live migration.
 
 ![bg right:30%](images/19-bonzai_tree.jpg)
 
@@ -392,7 +407,7 @@ Originally developed to make root less omnipotent.
   
 Caps like "NET\_BIND\_SERVICE" and "SYS\_CHROOT" can be given to non-root users.  
   
-Not very fine-grained and some are unsafe.
+Not very fine-grained and some are known unsafe.
 
 ![bg right:30%](images/19-cg_16.jpg)
 

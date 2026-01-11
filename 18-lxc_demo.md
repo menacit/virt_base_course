@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: LXC/LXD demo"
@@ -135,6 +135,31 @@ overhead was raised as the main advantages...
 -->
 
 ---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
+```
+$ sudo lxc launch images:alpine/3.17 srv-2
+$ sudo lxc exec -t srv-2 -- /bin/ash
+
+~ # apk add fortune
+(1/3) Installing libmd (1.0.4-r0)
+(3/3) Installing fortune (0.1-r1)
+
+~ # fortune 
+
+Matter cannot be created or destroyed,
+nor can it be returned without a receipt.
+```
+
+![bg right:30%](images/18-seal.jpg)
+
+<!--
+- We can do most thing's we expect out of a Linux server, such as install and run software
+
+- "srv-2" is based on the "Alpine Linux" distributions, which is very minimal and popular in the
+space
+-->
+
+---
 <!-- _footer: "%ATTRIBUTION_PREFIX% NASA (CC BY 2.0)" -->
 ```
 $ sudo lxc info srv-1 --resources
@@ -167,30 +192,6 @@ it will be shared by other instances using the same template
 initial deployment
 
 - We'll talk more about this sorcery later in the course
--->
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
-```
-$ sudo lxc exec -t srv-2 -- /bin/ash
-
-~ # apk add fortune
-(1/3) Installing libmd (1.0.4-r0)
-(3/3) Installing fortune (0.1-r1)
-
-~ # fortune 
-
-Matter cannot be created or destroyed,
-nor can it be returned without a receipt.
-```
-
-![bg right:30%](images/18-seal.jpg)
-
-<!--
-- We can do most thing's we expect out of a Linux server, such as install and run software
-
-- "srv-2" is based on the "Alpine Linux" distributions, which is very minimal and popular in the
-space
 -->
 
 ---
@@ -257,8 +258,7 @@ disables scheduling on it
 <!-- _footer: "%ATTRIBUTION_PREFIX% NASA/Bill Stafford (CC BY 2.0)" -->
 ## Other neat features
 - Runs on a potato
-- Automatic [overlay networking](https://wiki.ubuntu.com/FanNetworking)
-- LXD also supports HW-level virtualisation
+- Automatic [overlay networking](https://wiki.ubuntu.com/FanNetworking) between nodes
 - Live migration... [sometimes](https://linuxcontainers.org/lxd/docs/master/howto/move_instances/)
 
 ![bg right:30%](images/18-space_training.jpg)
@@ -269,10 +269,6 @@ disables scheduling on it
 - As noted, LXD clustering is easy to get started with. The "lxc init" wizard can be setup an
 overlay network for you, which enables communication between guests on different nodes regardless
 if one of the hypervisor nodes is in your basement and the other on a VPS in a public cloud
-
-- To make things a bit more confusing, LXD supports HW-level virtualisation with QEMU + KVM since
-a few versions ago. While still a bit early, it's nice to not deal with libvirt and make use of
-the easy clustering
 
 - LXD brags about live migration of both OS-level and HW-level guests. This doesn't always work,
 especially not for OS-level guests. As a rule of thumb, expect the ability to live migrate HW-level
@@ -287,5 +283,7 @@ the LXD project.
 
 Checkout the community-driven
 fork called [Incus](https://linuxcontainers.org/incus/).
+
+_(basically the same thing, fork yeah!)_
 
 ![bg right:30%](images/18-robot_streetart.jpg)

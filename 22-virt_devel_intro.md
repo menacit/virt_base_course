@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Introduction to virtual development"
@@ -24,7 +24,7 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pelle Sten (CC BY 2.0)" -->
 # Virtualised development
-### Why devops teams have grown to love it
+### Tackling development and deployment
 
 ![bg right:30%](images/22-abandoned_office.jpg)
 
@@ -41,6 +41,8 @@ testing of software shouldn't be that hard.
 
 We got interpreted languages and
 great tools like GitHub to help us.
+
+Shouldn't be so hard, right?
 
 ![bg right:30%](images/22-bees.jpg)
 
@@ -75,6 +77,14 @@ $ curl http://localhost:5000/api/request_info | jq
   "ip_address": "127.0.0.1"
 }
 ```
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Joel Rangsmo (CC BY-SA 4.0)" -->
+Let's put it in a shared Git repository,
+provide a download link for customers
+and get filthy rich!
+
+![bg right:30%](images/22-metal_kid_kicking_statue.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Scott Skippy (CC BY-SA 2.0)" -->
@@ -119,9 +129,8 @@ $ my_env/bin/flask run
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Martin Fisch (CC BY 2.0)" -->
 ## Some problems
-- Sharing venv's is not trivial
+- Code may not behave exactly on all platforms
 - Only handles Python dependencies\*
-- Code may not behave exactly the same on all operating systems
 - Doesn't describe how stack should be run
 
 ![bg right:30%](images/22-albatross.jpg)
