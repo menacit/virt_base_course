@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: VDI"
@@ -45,7 +45,8 @@ Segue: But why, whats the idea?
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Scott McCallum (CC BY-SA 2.0)" -->
-**Goal: Centralise compute resources.**
+Goal: Centralise compute resources
+and the management of them.
 
 ![bg right:30%](images/31-turtle.jpg)
 
@@ -121,7 +122,7 @@ information was actually inaccessible/encrypted at the time
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Jan Bocek (CC BY 2.0)" -->
-## How do users access their virtual desktops?
+How do users access their virtual desktops?
 
 ![bg right:30%](images/31-telephone_pole.jpg)
 
@@ -136,14 +137,15 @@ information was actually inaccessible/encrypted at the time
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% VIA Gallery (CC BY 2.0)" -->
 ## Thin clients
-Low-cost devices with a NIC, display output and basic I/O. No internal storage.  
+Low-cost devices with a NIC, display output
+and basic I/O. No internal storage.  
   
 Minimum local compute resources.  
    
 Typically shared between multiple users.
 
 Connects to appropriate virtual desktop
-based on user\+password, smart card, etc.
+based on username\+password, smart card, etc.
 
 ![bg right:30%](images/31-thin_client.jpg)
 
@@ -218,3 +220,11 @@ users are typically very dependent on shared services such as email or internal 
 least some tasks may be available if these are unavailable. If VDI is inaccessible and a
 requirement, productivity will likely be severely lowered (especially if thin clients are used)
 -->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Rod Waddington (CC BY-SA 2.0)" -->
+That's about it!
+
+Thoughts or questions?
+
+![bg right:30%](images/30-green_cabling.jpg)

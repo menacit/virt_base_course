@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Labs"
@@ -22,7 +22,7 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Fritzchens Fritz (CC0 1.0)" -->
-# Virtualisation labs
+# Lab project
 ### Putting knowledge to practice
 
 ![bg right:30%](images/29-chip.jpg)
@@ -34,12 +34,25 @@ style: |
 -->
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Mario Hoppmann (CC BY 2.0)" -->
-**Lab descriptions tell you what to do,
-not exactly how you should do it.**  
+<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
+## Lab: Shared dev environment
+Graded exercise to use HashiCorp Vagrant
+and Docker Compose to package/run
+a Python application and its dependencies.
   
-**Your submissions should document
-how you solved the problem.**
+For instructions, carefully read:  
+["resources/lab/README.md"](%RESOURCES_ARCHIVE%).  
+
+**Deadline: %LAB_DEADLINE%**
+
+![bg right:30%](images/29-lego.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Mario Hoppmann (CC BY 2.0)" -->
+Lab descriptions tell you what to do,
+not exactly how you should do it.  
+  
+Problem solving FTW!  
 
 ![bg right:30%](images/29-polar_bear.jpg)
 
@@ -54,18 +67,3 @@ through old slides and ask for support
 
 - Let me know how you approached the challenge and why you chose the solution steps you did
 -->
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Dennis van Zuijlekom (CC BY-SA 2.0)" -->
-## Lab: Shared dev environment
-Graded exercise to use HashiCorp Vagrant
-and Docker Compose to package/run
-a Python application and its dependencies.
-  
-For detailed instructions, carefully read:  
-["resources/lab/README.md"](%RESOURCES_ARCHIVE%).  
-  
-**Remember to download the latest version of
-the resources archive! ("[virt.zip](%RESOURCES_ARCHIVE%)")**
-
-![bg right:30%](images/29-lego.jpg)

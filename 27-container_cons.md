@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Virtualisation course: Container cons"
@@ -24,7 +24,7 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Shannon Kringen (CC BY 2.0)" -->
-# Container cons
+## Application container cons
 ### Everything ain't awesome
 
 ![bg right:30%](images/27-turtles.jpg)
@@ -52,3 +52,9 @@ Use software packaged by dubious people.
 Forget to update/patch things.
 
 ![bg right:30%](images/27-cd_macro.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Shannon Kringen (CC BY 2.0)" -->
+## The bright side?
+
+![bg right:30%](images/27-turtles.jpg)
